@@ -1,0 +1,5 @@
+#expertise .skill-art:not(.has-custom-image){display:flex;align-items:center;justify-content:center;transform:none;background:none;color:inherit}
+#expertise .skill-art:not(.has-custom-image)::after{display:none}
+#expertise .skill-sculpture{display:block;width:190px;height:140px;overflow:visible;filter:drop-shadow(0 12px 14px #0005);transition:transform .6s ease}
+@media(hover:hover) and (pointer:fine){#expertise .skill-card:hover .skill-sculpture{transform:translateY(-4px) rotate(-3deg)}}
+@media(prefers-reduced-motion:reduce){#expertise .skill-sculpture{transition:none}#expertise .skill-card:hover .skill-sculpture{transform:none}}

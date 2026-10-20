@@ -1,0 +1,14 @@
+/* Whole-title masks and transform-only card choreography. */
+.post-hero .reveal{opacity:1;transform:none;transition:none}
+.post-hero [data-motion-scene]{opacity:1}
+.post-hero h2,.post-hero .career-heading h3{transform-origin:0% 100%}
+.post-hero .project-image{overflow:hidden}
+.post-hero .project-image img{transform-origin:50% 50%;transition:none}
+/* GSAP owns the img transform; this separate layer owns hover zoom. */
+.post-hero .project-image-hover{position:absolute;inset:0;display:block;transform:scale(1);transform-origin:center;transition:transform .65s cubic-bezier(.22,1,.36,1)}
+.post-hero .project-card:hover .project-image-hover,.post-hero .project-card:focus-visible .project-image-hover{transform:scale(1.045)}
+.post-hero .skill-card[data-motion-scene]{transition:border-color .3s}
+.post-hero .project-card[data-motion-scene]{transition:border-color .3s,box-shadow .3s}
+.intro-title-mask{display:block;width:fit-content;position:relative}
+@media(prefers-reduced-motion:reduce){.post-hero [data-motion-scene]{transform:none!important;clip-path:none!important}}
+@media(prefers-reduced-motion:reduce){.post-hero .project-card .project-image-hover{transform:none;transition:none}}

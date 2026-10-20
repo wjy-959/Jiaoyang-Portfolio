@@ -1,0 +1,111 @@
+import {mapPublicAssets} from './published-state';
+// Lightweight homepage metadata; full image lists load with detail pages.
+const rawData = [
+  {
+    "id": "08",
+    "slug": "inverter",
+    "accent": "逆变器",
+    "name": "",
+    "displayName": "逆变器",
+    "title": "逆变器 · Amazon Listing",
+    "detailPath": "/projects/inverter",
+    "cover": "/images/projects/inverter/aplus-01.webp",
+    "thumbnail": "/images/projects/inverter/thumbnail.webp",
+    "displayIndex": "01",
+    "platform": "Amazon 亚马逊",
+    "kind": "listing",
+    "category": "Listing设计"
+  },
+  {
+    "id": "06",
+    "slug": "36v-battery",
+    "accent": "36V",
+    "name": "锂电池",
+    "displayName": "36V 锂电池",
+    "title": "36V 锂电池 · Amazon Listing",
+    "detailPath": "/projects/36v-battery",
+    "cover": "/images/projects/36v-battery/aplus-02.webp",
+    "thumbnail": "/images/projects/36v-battery/thumbnail.webp",
+    "displayIndex": "02",
+    "platform": "Amazon 亚马逊",
+    "kind": "listing",
+    "category": "Listing设计"
+  },
+  {
+    "id": "01",
+    "slug": "24v-charger",
+    "accent": "24V",
+    "name": "充电器",
+    "displayName": "24V 充电器",
+    "title": "24V 充电器 · Amazon Listing",
+    "detailPath": "/projects/24v-charger",
+    "cover": "/images/projects/24v-charger/aplus-01.webp",
+    "thumbnail": "/images/projects/24v-charger/thumbnail.webp",
+    "displayIndex": "03",
+    "platform": "Amazon 亚马逊",
+    "kind": "listing",
+    "category": "Listing设计"
+  },
+  {
+    "id": "05",
+    "slug": "12v-battery",
+    "accent": "12V",
+    "name": "锂电池",
+    "displayName": "12V 锂电池",
+    "title": "12V 锂电池 · Amazon Listing",
+    "detailPath": "/projects/12v-battery",
+    "cover": "/images/projects/12v-battery/aplus-01.webp",
+    "thumbnail": "/images/projects/12v-battery/thumbnail.webp",
+    "displayIndex": "04",
+    "platform": "Amazon 亚马逊",
+    "kind": "listing",
+    "category": "Listing设计"
+  },
+  {
+    "id": "07",
+    "slug": "electric-outboard",
+    "accent": "电动",
+    "name": "舷外机",
+    "displayName": "电动舷外机",
+    "title": "电动舷外机 · Amazon Listing",
+    "detailPath": "/projects/electric-outboard",
+    "cover": "/images/projects/electric-outboard/aplus-01.webp",
+    "thumbnail": "/images/projects/electric-outboard/thumbnail.webp",
+    "displayIndex": "05",
+    "platform": "Amazon 亚马逊 / 独立站",
+    "kind": "listing",
+    "category": "Listing设计"
+  },
+  {
+    "id": "09",
+    "slug": "energy-selection",
+    "accent": "储能",
+    "name": "工作图节选",
+    "displayName": "储能工作图节选",
+    "title": "储能工作图节选",
+    "detailPath": "/projects/energy-selection",
+    "cover": "/images/projects/energy-selection/visual-25.webp",
+    "thumbnail": "/images/projects/energy-selection/thumbnail.webp",
+    "displayIndex": "06",
+    "platform": "电商 / 品牌视觉",
+    "kind": "collection",
+    "category": "工作图节选"
+  },
+  {
+    "id": "10",
+    "slug": "3c-selection",
+    "accent": "3C",
+    "name": "工作图节选",
+    "displayName": "3C工作图节选",
+    "title": "3C工作图节选",
+    "detailPath": "/projects/3c-selection",
+    "cover": "/images/projects/3c-selection/visual-06.webp",
+    "thumbnail": "/images/projects/3c-selection/thumbnail.webp",
+    "displayIndex": "07",
+    "platform": "电商 / 品牌视觉",
+    "kind": "collection",
+    "category": "工作图节选"
+  }
+];
+
+export const portfolioProjects=mapPublicAssets(rawData);

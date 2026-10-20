@@ -1,0 +1,9 @@
+/* React Bits SpotlightCard, adapted to retain the portfolio's existing layout. */
+.spotlight-card{position:relative;isolation:isolate;overflow:hidden}
+.spotlight-card__light,.spotlight-card__grain,.spotlight-card__border,.spotlight-card__edge{position:absolute;inset:0;border-radius:inherit;pointer-events:none;margin:0!important}
+.spotlight-card__light,.spotlight-card__grain{z-index:3;opacity:0}
+.spotlight-card__grain{background-size:160px 160px;mix-blend-mode:overlay}
+.spotlight-card__border,.spotlight-card__edge{z-index:4;padding:1px!important;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0)}
+.spotlight-card__border{background:transparent}
+.spotlight-card__edge{opacity:0}
+.gallery-card.spotlight-card>.spotlight-card__light,.gallery-card.spotlight-card>.spotlight-card__grain,.gallery-card.spotlight-card>.spotlight-card__border,.gallery-card.spotlight-card>.spotlight-card__edge{transform:none;width:auto;height:auto;object-fit:initial}

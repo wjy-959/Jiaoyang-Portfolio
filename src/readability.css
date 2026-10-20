@@ -1,0 +1,86 @@
+/* Quiet backgrounds below the hero; readability improvements retained. */
+.post-hero{position:relative;isolation:isolate;background:#0b0d0f}
+.post-hero-content{position:relative;z-index:1}
+.post-hero .work{background:transparent}
+.post-hero .contact{background:rgba(16,17,19,.24)}
+.post-hero .discipline-strip{background:#0b0d0f88}
+
+/* Body copy is distinct from metadata, while keeping headings and the hero intact. */
+#about .bio-summary{font-size:15px;line-height:1.95;color:#b2bbb7;max-width:780px}
+#about .bio-summary em{color:#e3e9e4}
+#about .bio-facts dd{font-size:14px;line-height:1.8;color:#dce4de}
+#about .bio-facts dt{font-size:12px;color:#b7cb95}
+#about .bio-facts dt>span{font-size:11px;letter-spacing:.8px}
+#about .bio-overline>span:last-child{font-size:11px;color:#a5b0aa}
+#about .bio-numbers p{font-size:12px;color:#a7b3ab;line-height:1.8}
+#about .bio-toolkit-label>span,#about .bio-toolkit-label a{font-size:11px;color:#afbea3}
+#about .bio-tools>span{font-size:11px;color:#b9c5b2;padding:7px 12px}
+#about .bio-zcool-url{font-size:12px;color:#abb8af}
+#about .career-stop time{font-size:12px;color:#bcd78f}
+#about .career-stop h4{font-size:18px;line-height:1.7}
+#about .career-role{font-size:12px;padding:6px 13px}
+#about .career-focus{font-size:12px;color:#a7b49f;line-height:1.8}
+#about .career-stop li{font-size:14px;line-height:1.95;color:#b2bcb5;margin-bottom:14px;padding-left:14px}
+#about .career-stop li:before{top:12px}
+.post-hero .section-label{font-size:12px;letter-spacing:1.6px}
+.post-hero .section-aside{font-size:13px;color:#a4aaa8}
+.post-hero .work-count{font-size:11px;color:#a5ada8}
+.post-hero .demo-note{font-size:11px;color:#a3aca5}
+.post-hero .filters button.filter-chip{font-size:13px}
+.post-hero .project-en{font-size:11px;letter-spacing:1.2px;color:#a5b0a9}
+.post-hero .projects .project-tags{max-width:100%;flex-wrap:wrap}
+.post-hero .projects .project-tags span{font-size:11px;color:#b6bfb9}
+.post-hero .projects .project-info{flex-wrap:wrap;gap:15px;padding-bottom:22px}
+.post-hero .project-index{font-size:11px}
+.post-hero .project-view{font-size:12px}
+.post-hero .work-end{font-size:12px;color:#a9b2ad}
+.post-hero .expertise-heading>p{font-size:15px;line-height:1.95;color:#afb8b2}
+.post-hero .skill-en{font-size:11px;line-height:1.7;color:#a5aea9}
+.post-hero .skill-card>p{font-size:14px;line-height:1.95;color:#b3bcb6;min-height:0}
+.post-hero .skill-tools{font-size:11px;line-height:1.8;color:#c0c9c2}
+.post-hero .process>span{font-size:11px;color:#a4afa7}
+.post-hero .process p{font-size:14px;line-height:1.8;color:#bdc5c0}
+.post-hero .contact-kicker{font-size:11px;color:#9ca9a0}
+.post-hero .contact-availability{font-size:12px}
+.post-hero .contact-action>p{font-size:14px;line-height:1.9;color:#b0bbb3}
+.post-hero .contact-details>div>span{font-size:11px;color:#a4afa8}
+.post-hero .copy-hint{font-size:11px}
+.post-hero .contact-details p small{font-size:11px;color:#a2aca5}
+.post-hero footer>span,.post-hero footer>a:last-child{font-size:11px;line-height:1.7;color:#a5aea8}
+.dialog-copy p{font-size:15px;line-height:1.95;color:#bdc6bf}
+.dialog-copy .dialog-notice{font-size:12px;line-height:1.9;color:#a4afa7}
+@media(max-width:1100px){#about .bio-facts{column-gap:20px}#about .career-stop h4{font-size:16px}.post-hero .process i{margin-inline:15px}}
+@media(max-width:760px){#about .bio-summary{font-size:14px}#about .bio-facts{grid-template-columns:1fr;gap:0}#about .bio-facts dd{font-size:14px}#about .bio-overline>span:last-child{font-size:10px}#about .bio-numbers{gap:12px}#about .bio-numbers p{font-size:11px}#about .bio-toolkit-label{gap:12px}#about .career-stop h4{font-size:17px}.post-hero .section-aside{font-size:12px;max-width:48%;text-align:right}.post-hero .expertise-heading>p{font-size:14px}.post-hero .filters button.filter-chip{font-size:12px}.post-hero .process p{font-size:12px}.post-hero .process i{margin-inline:7px}.post-hero .contact-details button{flex-wrap:wrap;row-gap:8px}.post-hero footer{flex-wrap:wrap;gap:18px}.post-hero footer>span{font-size:10px;max-width:65%}}
+
+/* Shared chapter titles: accent identity on the left, editorial copy beside it. */
+.post-hero h2.chapter-heading{display:flex;align-items:center;gap:clamp(24px,3.8vw,64px);margin-bottom:0;min-width:0}
+.post-hero h2.chapter-heading>.chapter-title{flex-shrink:0;color:var(--accent);font-size:clamp(36px,4.1vw,68px);font-weight:500;line-height:1.25;letter-spacing:.02em;white-space:nowrap}
+.post-hero h2.chapter-heading>.chapter-slogan{color:#eeeef0;font-size:clamp(24px,2.65vw,44px);line-height:1.4;letter-spacing:-.025em;font-weight:500}
+#about h2.chapter-heading{gap:clamp(20px,2.3vw,40px);margin-bottom:24px;flex-wrap:wrap;row-gap:12px}
+#about h2.chapter-heading>.chapter-title{font-size:clamp(34px,3.45vw,58px)}
+#about h2.chapter-heading>.chapter-slogan{font-size:clamp(24px,2.6vw,43px)}
+#about .chapter-slogan>span{color:var(--accent)}
+.post-hero .work-heading,.post-hero .expertise-heading{gap:30px}
+.post-hero .work-count{flex-shrink:0}
+.post-hero .expertise-heading>p{flex-shrink:0;font-size:clamp(12px,1.05vw,15px)}
+@media(max-width:1100px){.post-hero .expertise-heading{flex-wrap:wrap;align-items:start;row-gap:24px}.post-hero .expertise-heading>p{margin:0}.post-hero .work-heading{align-items:center;flex-wrap:wrap;row-gap:20px}}
+@media(max-width:760px){.post-hero h2.chapter-heading{flex-direction:column;align-items:flex-start;gap:14px}.post-hero h2.chapter-heading>.chapter-title,#about h2.chapter-heading>.chapter-title{font-size:36px}.post-hero h2.chapter-heading>.chapter-slogan,#about h2.chapter-heading>.chapter-slogan{font-size:26px}.post-hero .work-heading{align-items:flex-start}.post-hero .work-count{padding-bottom:0}.post-hero .expertise-heading>p{font-size:14px}}
+
+/* Keep the expertise slogan on the same line as the other chapter headings. */
+#expertise .chapter-slogan{white-space:nowrap;font-size:clamp(22px,2.25vw,38px)}
+@media(max-width:760px){#expertise .chapter-slogan{font-size:clamp(17px,4.2vw,26px)}}
+
+/* Five capabilities: three above two, with both rows sharing the outer edges. */
+#expertise .skill-grid-five{grid-template-columns:repeat(6,minmax(0,1fr));align-items:stretch}
+#expertise .skill-grid-five>.skill-card{grid-column:span 2;display:flex;flex-direction:column;min-width:0}
+#expertise .skill-grid-five>.skill-card:nth-child(n+4){grid-column:span 3}
+#expertise .skill-grid-five .skill-tools{margin-top:auto;padding-top:19px}
+#expertise .skill-grid-five .skill-card>p{margin-bottom:26px}
+#expertise .skill-grid-five .skill-line-art{width:150px;height:110px;flex-shrink:0;color:#b6bcc3}
+#expertise .skill-grid-five .skill-art.project,#expertise .skill-grid-five .skill-art.collaboration{display:flex;align-items:center;justify-content:center}
+@media(min-width:761px) and (max-width:1000px){#expertise .skill-grid-five{grid-template-columns:repeat(2,minmax(0,1fr))}#expertise .skill-grid-five>.skill-card,#expertise .skill-grid-five>.skill-card:nth-child(n+4){grid-column:span 1}#expertise .skill-grid-five>.skill-card:last-child{grid-column:1/-1}}
+@media(max-width:760px){#expertise .skill-grid-five{grid-template-columns:1fr}#expertise .skill-grid-five>.skill-card,#expertise .skill-grid-five>.skill-card:nth-child(n+4){grid-column:1/-1}}
+
+/* Equal-sized capability cards, with a centered pair in the second row. */
+@media(min-width:1001px){#expertise .skill-grid-five{grid-auto-rows:1fr}#expertise .skill-grid-five>.skill-card:nth-child(4){grid-column:2/span 2}#expertise .skill-grid-five>.skill-card:nth-child(5){grid-column:4/span 2}}
+@media(min-width:761px) and (max-width:1000px){#expertise .skill-grid-five>.skill-card:last-child{grid-column:1/span 1}}

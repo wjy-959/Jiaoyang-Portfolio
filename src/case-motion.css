@@ -1,0 +1,8 @@
+/* Motion never changes artwork sources, aspect ratios or stored order. */
+.case-page{overflow-x:clip}
+@media(prefers-reduced-motion:reduce){
+ .case-page .case-title-row h1,.case-page .case-section-heading,.case-page .collection-heading,
+ .case-page .case-image-button,.case-page .case-aplus-connected,.case-page .collection-piece{
+  transform:none!important;opacity:1!important
+ }
+}
