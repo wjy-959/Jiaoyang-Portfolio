@@ -212,13 +212,13 @@
       "3c-selection-visual-30"
     ]
   },
-  "exportedAt": "2026-10-20T20:21:12.835Z",
+  "exportedAt": "2026-10-28T09:26:09.177Z",
   "previews": {
-    "36v-battery-aplus-02": "/images/optimized/d2d1174d6e151e404181f266d82e6e1dac7166cf4e96df32e277b750cf64c927-1800-q90.webp",
-    "36v-battery-listing-05": "/images/optimized/5ced263fe645eee23b34e09cf7cf8b1e68f8cd37ce3ad3d832419b9df5a8e4ba-1800-q90.webp",
+    "36v-battery-aplus-02": "/images/optimized/d2d1174d6e151e404181f266d82e6e1dac7166cf4e96df32e277b750cf64c927-1600-q82.webp",
+    "36v-battery-listing-05": "/images/optimized/5ced263fe645eee23b34e09cf7cf8b1e68f8cd37ce3ad3d832419b9df5a8e4ba-1400-q82.webp",
     "background": "/images/optimized/8d3c95c137c35b177299841400632be7d35418f1772b72db1acbd744d4ca86a2-2560-q90.webp",
-    "charger-listing-01": "/images/optimized/2eaa2a896f8e44537dea6abd2dc5904e4661248f15720699473f70a6c612c186-1800-q90.webp",
-    "electric-outboard-poster-01": "/images/optimized/6874e86348137662e5715b5b6bd89b0d7679c532f1607c48fca03a9fc78621e1-1800-q90.webp",
+    "charger-listing-01": "/images/optimized/2eaa2a896f8e44537dea6abd2dc5904e4661248f15720699473f70a6c612c186-1400-q82.webp",
+    "electric-outboard-poster-01": "/images/optimized/6874e86348137662e5715b5b6bd89b0d7679c532f1607c48fca03a9fc78621e1-1400-q82.webp",
     "portrait": "/images/optimized/9cd5c3b3e9cbb27686e25350a28b750d59e95b8b21409087346266c19658aa08-1200-q90.webp",
     "project-01": "/images/optimized/fec43b0cc13ddcae758f4ef3454c10ff662e1eac5be4b484a168a62828e97fa4-1200-q90.webp",
     "project-05": "/images/optimized/10558bd5457eff17c077b625273f7699065a86e084ad9cdd73b0cce9c88ba490-1200-q90.webp",
@@ -235,12 +235,13 @@
     "slide-5": "/images/optimized/d13d91248c75c9521bdb411baa98b8de5c0a73fe3b4550945498cb324d65db6a-1200-q90.webp",
     "slide-6": "/images/optimized/f39cd4cad89e068439c303007c00b8bd1aed8f75fa94b31e6beabb11b6f4f482-1200-q90.webp",
     "slide-7": "/images/optimized/223e577a842ffb5fb574df11709747ba1500e333221dd533d26bb827a80a08e0-1200-q90.webp",
-    "uploaded-31d9c5f3-4c0a-41d8-a8a6-9577dcc87258": "/images/optimized/2caf4e224b480bbad46b7b0c3f996f5b5c6483b65bb9f19dec499d7278881e5b-1800-q90.webp",
-    "uploaded-3434be5d-493d-4354-a8e7-362a1349cabb": "/images/optimized/1a1d3a51c9cccfd7aaf9812385d737203740f48e3d9fb532f631f5fc1ffba58e-1800-q90.webp",
-    "uploaded-75596bae-9e8a-4623-a6f9-7c763dfe34e3": "/images/optimized/f39cd4cad89e068439c303007c00b8bd1aed8f75fa94b31e6beabb11b6f4f482-1800-q90.webp",
-    "uploaded-a7872106-553e-4f1d-a20a-f735bceb65e8": "/images/optimized/9998f78b6f9baafc3c7ab8ccd059c69b7a76d397aa91d16e9a7daf85c2eb887a-1800-q90.webp",
-    "uploaded-c0548967-4a92-44d3-96d3-ee3c377c8d3c": "/images/optimized/5e63e72e8383bf630a4751e51e0566a52f4a0c3a6fcd37bac5968f2512c90a32-1800-q90.webp",
-    "uploaded-d34f6915-33dd-4cd7-9060-bafafb9475e7": "/images/optimized/d13d91248c75c9521bdb411baa98b8de5c0a73fe3b4550945498cb324d65db6a-1800-q90.webp"
+    "uploaded-31d9c5f3-4c0a-41d8-a8a6-9577dcc87258": "/images/optimized/2caf4e224b480bbad46b7b0c3f996f5b5c6483b65bb9f19dec499d7278881e5b-1400-q82.webp",
+    "uploaded-3434be5d-493d-4354-a8e7-362a1349cabb": "/images/optimized/1a1d3a51c9cccfd7aaf9812385d737203740f48e3d9fb532f631f5fc1ffba58e-1400-q82.webp",
+    "uploaded-75596bae-9e8a-4623-a6f9-7c763dfe34e3": "/images/optimized/f39cd4cad89e068439c303007c00b8bd1aed8f75fa94b31e6beabb11b6f4f482-1400-q82.webp",
+    "uploaded-a7872106-553e-4f1d-a20a-f735bceb65e8": "/images/optimized/9998f78b6f9baafc3c7ab8ccd059c69b7a76d397aa91d16e9a7daf85c2eb887a-1400-q82.webp",
+    "uploaded-c0548967-4a92-44d3-96d3-ee3c377c8d3c": "/images/optimized/5e63e72e8383bf630a4751e51e0566a52f4a0c3a6fcd37bac5968f2512c90a32-1400-q82.webp",
+    "uploaded-d34f6915-33dd-4cd7-9060-bafafb9475e7": "/images/optimized/d13d91248c75c9521bdb411baa98b8de5c0a73fe3b4550945498cb324d65db6a-1400-q82.webp",
+    "electric-outboard-poster-02": "/images/optimized/eb6254b21496527f1a23a01e6d000799158d8150249f947739b32ea11406cda5-1400-q82.webp"
   },
   "fingerprints": {
     "36v-battery-aplus-02": "d2d1174d6e151e404181f266d82e6e1dac7166cf4e96df32e277b750cf64c927",
@@ -269,6 +270,7 @@
     "uploaded-75596bae-9e8a-4623-a6f9-7c763dfe34e3": "f39cd4cad89e068439c303007c00b8bd1aed8f75fa94b31e6beabb11b6f4f482",
     "uploaded-a7872106-553e-4f1d-a20a-f735bceb65e8": "9998f78b6f9baafc3c7ab8ccd059c69b7a76d397aa91d16e9a7daf85c2eb887a",
     "uploaded-c0548967-4a92-44d3-96d3-ee3c377c8d3c": "5e63e72e8383bf630a4751e51e0566a52f4a0c3a6fcd37bac5968f2512c90a32",
-    "uploaded-d34f6915-33dd-4cd7-9060-bafafb9475e7": "d13d91248c75c9521bdb411baa98b8de5c0a73fe3b4550945498cb324d65db6a"
+    "uploaded-d34f6915-33dd-4cd7-9060-bafafb9475e7": "d13d91248c75c9521bdb411baa98b8de5c0a73fe3b4550945498cb324d65db6a",
+    "electric-outboard-poster-02": "eb6254b21496527f1a23a01e6d000799158d8150249f947739b32ea11406cda5"
   }
 }

@@ -4,6 +4,7 @@ from PIL import Image, ImageOps
 import hashlib
 import json
 import sys
+import subprocess
 
 root = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else Path(__file__).resolve().parents[1]
 manifest = root / 'public/published/site.json'
@@ -47,3 +48,4 @@ report_path = root / '.history/media-optimization.json'
 report_path.parent.mkdir(parents=True, exist_ok=True)
 report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
 print(json.dumps({'optimized': len(report), 'originalBytes': sum(x['originalBytes'] for x in report), 'displayBytes': sum(x['displayBytes'] for x in report)}))
+subprocess.run([sys.executable, str(root / 'scripts/optimize-detail-media.py'), str(root)], check=True)

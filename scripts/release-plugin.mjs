@@ -18,7 +18,7 @@ export default function releasePlugin(){
    for(const directory of ['optimized','published'])server.middlewares.use('/images/'+directory,async(req,res,next)=>{
     if(!['GET','HEAD'].includes(req.method))return next();
     const filename=req.url.split('?')[0].slice(1);
-    const allowed=directory==='optimized'?/^[a-f0-9]{64}-\d+-q90\.webp$/:/^[a-f0-9]{64}\.(png|jpg|webp|avif|gif)$/;
+    const allowed=directory==='optimized'?/^[a-f0-9]{64}-\d+-q(?:82|90)\.webp$/:/^[a-f0-9]{64}\.(png|jpg|webp|avif|gif)$/;
     if(!allowed.test(filename))return next();
     const file=path.join(root,'public/images',directory,filename);
     try{

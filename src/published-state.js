@@ -1,4 +1,5 @@
 import {canEdit} from './editor-mode';
+import detailPreviews from './detail-previews.json';
 
 export const siteBase=import.meta.env.BASE_URL;
 export const assetUrl=value=>typeof value==='string'&&value.startsWith('/images/')?siteBase+value.slice(1):value;
@@ -12,6 +13,7 @@ export async function loadPublishedState(){
  const response=await fetch(siteBase+'published/site.json',{cache:'no-cache'});
  if(!response.ok)throw new Error('发布素材配置未能加载，请刷新重试。');
  Object.assign(publishedState,mapPublicAssets(await response.json()));
+ publishedState.previews={...mapPublicAssets(detailPreviews),...publishedState.previews};
 }
 export function readSetting(key,fallback){
  if(canEdit){try{const value=localStorage.getItem(key);if(value!==null)return JSON.parse(value)}catch{}}
