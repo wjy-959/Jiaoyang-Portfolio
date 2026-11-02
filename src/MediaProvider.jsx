@@ -1,6 +1,7 @@
 import {criticalImages,previewForUpload} from './media-performance';
 import {publishedState,currentRoute} from './published-state';
 import {canEdit} from './editor-mode';
+import avifReplacements from './avif-replacements.json';
 import React,{createContext,useContext,useEffect,useRef,useState} from 'react';
 import {heroMedia} from './hero-media';
 import {portfolioProjects} from './project-summaries';
@@ -42,7 +43,11 @@ export function MediaProvider({children}){
    setHidden(hiddenImages);
    const previews={...publishedState.previews};
    await Promise.all((records||[]).filter(record=>record.file instanceof Blob&&record.key!=='video').map(async record=>{
-    previews[record.key]=await previewForUpload(record,publishedState.previews[record.key],publishedState.fingerprints[record.key])||saved[record.key];
+    const matchedPreview=await previewForUpload(record,publishedState.previews[record.key],publishedState.fingerprints[record.key]);
+    previews[record.key]=matchedPreview||saved[record.key];
+    // Recognize the previous upload without overwriting browser storage. A new
+    // upload with different contents still takes precedence over the replacement.
+    if(matchedPreview&&avifReplacements[record.key])saved[record.key]=matchedPreview;
    }));
    if(!alive)return;
    setMedia(saved);setPreviewMedia(previews);target.current=12;

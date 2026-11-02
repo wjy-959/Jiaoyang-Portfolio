@@ -1,0 +1,902 @@
+{
+  "36v-battery-listing-03": {
+    "src": "/images/published/c1df189826757bb147204904afd579c77211b8467c2e8b0ddc72f3cb6dba816e.avif",
+    "originalFingerprint": "eebbd39d3ba9dc2dd4fb53beedcc86835de661c01a3609b6ac30fe8bdba0960f"
+  },
+  "36v-battery-listing-05": {
+    "src": "/images/published/fbd06523eaca27234f770384e5cd5494b592de28ecbbfb43d0c889e2b9c49c7f.avif",
+    "originalFingerprint": "5ced263fe645eee23b34e09cf7cf8b1e68f8cd37ce3ad3d832419b9df5a8e4ba"
+  },
+  "36v-battery-listing-06": {
+    "src": "/images/published/84cc6521d39e76a4954f5944ee9b8ea80308a11b93c776fc174894dc33b5cea3.avif",
+    "originalFingerprint": "59704be1993c497ea6d65852626b494521de896ceabcc1018887725cdea13864"
+  },
+  "36v-battery-listing-07": {
+    "src": "/images/published/edf9cc554644f9def0faa895478af05e289dedb0ea0b7637c782f565cde58f46.avif",
+    "originalFingerprint": "c9a0e6d5f987b11237dd3f2a52bf534d87befd3782fa16385c48edf3063332a6"
+  },
+  "36v-battery-listing-08": {
+    "src": "/images/published/29d96f3a3a707406feceec7242804db22e40dee2b4318a90a8e85770f04e1916.avif",
+    "originalFingerprint": "ffae2654cb01fd50b4bd2c871b7abe0b48d9ddb3c0ac283950b723b963018079"
+  },
+  "36v-battery-listing-09": {
+    "src": "/images/published/5e97ead7f3c32ca4a5aa3eb6c1de42f68770540982dd3afbe8399161ac66da28.avif",
+    "originalFingerprint": "96f081624561a458dbd7feadd1d34039a792baa9ead788cbdb4484a7b5e82425"
+  },
+  "36v-battery-listing-10": {
+    "src": "/images/published/d0334c8743270ce5fa92a458f7a93feb3b5960b3da693b4a7d1a2c8d0f3c9a1e.avif",
+    "originalFingerprint": "0065e6368621e1ae4cd1dcbe73d8ddd639412744058d0aefe90eab2337faa63d"
+  },
+  "36v-battery-listing-11": {
+    "src": "/images/published/71e473a0509c85fe25a1d180c788ee4d0742a0227c99e21d55be4a6c48ad1cc7.avif",
+    "originalFingerprint": "d01c48d1ff3d5f5cbcb3c9ba968f7ff6bee3fd2c79157691efbdd6c190cd1940"
+  },
+  "36v-battery-listing-12": {
+    "src": "/images/published/b4ec538d806cbc2a239cd96ddba94ca98c8bf205a5a949122870e9e9734d25f0.avif",
+    "originalFingerprint": "333f77e6d436d6e85ec52015b53c30b0b3943396c828b10a9c33e62cf58fe169"
+  },
+  "36v-battery-aplus-01": {
+    "src": "/images/published/21be4df235fa3934a9dce545a657b601eba319e37a081c6eccbfc5ac362517f1.avif",
+    "originalFingerprint": "61ac14f81baa7b6f931d045b3fa1f3fbc0b7af7cd72afa3f912c39dfbf696da8"
+  },
+  "36v-battery-aplus-02": {
+    "src": "/images/published/3228a32a4460714e3a67dae02c8f241ac94f920231bee84873293336f9343d4c.avif",
+    "originalFingerprint": "d2d1174d6e151e404181f266d82e6e1dac7166cf4e96df32e277b750cf64c927"
+  },
+  "36v-battery-aplus-03": {
+    "src": "/images/published/ac069dcd92561bc58ae8b7fa95c6440a51aad724650bd389e3bb4be1c28d88d5.avif",
+    "originalFingerprint": "551377ab31bf42e36a2e68b5b6977e954cbed4f2e0bafce2d34733f53ce5238f"
+  },
+  "36v-battery-aplus-04": {
+    "src": "/images/published/523e9a4b15233ba751ca45453ca22653eed96dec6c81ce1dfbdf80cda26f2ecf.avif",
+    "originalFingerprint": "cfcb82806e92405d78bb630a1bea0f7cb60a0f12bfe162663f9462028a3e5ecd"
+  },
+  "36v-battery-aplus-05": {
+    "src": "/images/published/7c21a7aa223723d7bf719b881bd25f931e542745bc4cfaa821b11fc19b9b85f6.avif",
+    "originalFingerprint": "1f4256203e626bc2db3d8c79dfc4a365270d838af0da6991bf5aa4b8ab9f5edc"
+  },
+  "36v-battery-aplus-06": {
+    "src": "/images/published/1b8a3e52b9b005fa6d493da311567e7d6a08c739ba3701d54085d4b281334c03.avif",
+    "originalFingerprint": "9e5de11570247f17b02886b62a75f3653e3b672d9fb049d2f707b2232e153180"
+  },
+  "36v-battery-aplus-07": {
+    "src": "/images/published/3b8cc1f04d6acc9503a1108dda6abd9fa603928ffbd9f181ec16249642c279ce.avif",
+    "originalFingerprint": "404eefb4105f66c67bbba18a035c3585c5ab6137002d21054682577d18006af1"
+  },
+  "36v-battery-aplus-08": {
+    "src": "/images/published/afe6c06ff7ff59ee6295836f823d062140b23d06a23977feef641c237f758d57.avif",
+    "originalFingerprint": "c3d0627b6593a34ba9ed16e625b7615c715a4310c9a5f1ce3b59f9533cd2e7fc"
+  },
+  "36v-battery-listing-01": {
+    "src": "/images/published/aad0209c34862b4c3b0f92aec6739a1573eb90387e5fc62a3f20dbcd99585c9c.avif",
+    "originalFingerprint": "4ea43cf95aacf13f8ffbe606fc1961e9396378ad2dea39bf6baffb27b54abf53"
+  },
+  "36v-battery-listing-02": {
+    "src": "/images/published/8fcb1f06f723f52cc1fd3e0a9886252428d56981839a0d0452382999c78c279c.avif",
+    "originalFingerprint": "fa01053fcea36168705497acdaeb6e49fbf815c614593c1d91b58d1aaf349035"
+  },
+  "inverter-listing-03": {
+    "src": "/images/published/163d3af9c2bf680bff62fea2ab34c6345e56ae7484f641e205559652277aea5f.avif",
+    "originalFingerprint": "e5234667aa3e37269fcca012d48079cecff55063092e9b2c584f731483df9295"
+  },
+  "inverter-listing-04": {
+    "src": "/images/published/b748757d8950024c5ccdb450d958ee731421219f2fcafd636e4ad7c7b464ee24.avif",
+    "originalFingerprint": "88b491e516d99baa704881b9a0cf5ef62727ca41a8e1a807ed854d8e3124a56f"
+  },
+  "inverter-listing-05": {
+    "src": "/images/published/f13039920147a18f1df21746bcedac514cc76dee5a1c6df848114f428c2fe904.avif",
+    "originalFingerprint": "7876153513600519799dc885714a94ee82823735d3ba1c299d289f7c6f3d2e45"
+  },
+  "inverter-listing-06": {
+    "src": "/images/published/9976161b0bda8fa0328a3395c5f45994f9d852edc9cac675597fb65742ef323b.avif",
+    "originalFingerprint": "2b72206d7dc4442050fa4b93938e6de319b15862b9d19efa492b0f70d03fcd3f"
+  },
+  "inverter-listing-07": {
+    "src": "/images/published/c87d834b0d120eaf0da2e553e901ece84d1bde00cdf06f23cb363914ce9d94bf.avif",
+    "originalFingerprint": "36c34d7767d281062d4e75d95ff76a1d05fd848b05c67ba0493ee2adc0d033f1"
+  },
+  "inverter-listing-08": {
+    "src": "/images/published/e251b34bb28f17ce4ecc5078f3019a32f613b12fc086d78517153531070a7553.avif",
+    "originalFingerprint": "65f768e4887b91b674cbd9276820b04fbbb7eb4940ded494faf1a96254030954"
+  },
+  "inverter-listing-09": {
+    "src": "/images/published/1bfc3410dc72afd5fbb11f5ccc544d975ee825d53ac12e2d6049384cd283ac27.avif",
+    "originalFingerprint": "9ed81d6f8c61b359b01ecd3c89dee7932150a6e5f9a60af2cec52aab3306245d"
+  },
+  "inverter-listing-10": {
+    "src": "/images/published/f02ca587e1bfe3804f9917c1e92da7ad9e59ae102593ecbe59dfa2b92fdfe095.avif",
+    "originalFingerprint": "28c36bb36f26579f4054e0de802867d96d6fb49213d29bc20f3801411b8696af"
+  },
+  "inverter-aplus-01": {
+    "src": "/images/published/88c5c5bc1b115a542d243da1eb3ddcff641fe723d94af7a0723a85f36a59d561.avif",
+    "originalFingerprint": "f0da2b08272a40fe9f74d5ab73a1fba3abdd9721c73d8cfac7d69ca7686e59b6"
+  },
+  "inverter-aplus-02": {
+    "src": "/images/published/9a0b4cfc7cc0bd1379072a4d5cb2f9885236c31cf79bd5da556e79c9ec17b5b5.avif",
+    "originalFingerprint": "61fb9aaa34d6efb1fae6381043a8960bd590f932d4a157c6adb41216dce49f97"
+  },
+  "inverter-aplus-03": {
+    "src": "/images/published/4a12751506cb800deb7490ad9c65ef5a10bb13409d010b74065cd23288c14959.avif",
+    "originalFingerprint": "8752e1482ab1069dd88f403faf0c67aff7bae5d86a65ac046e3a3543721f6e9d"
+  },
+  "inverter-aplus-04": {
+    "src": "/images/published/ca4fb1b464785aa5ed55e2ae9294423ae1731896027fe0292bb23f7d2488e347.avif",
+    "originalFingerprint": "c820c1e8b5577898b4611ae9cffe0313588d015b7967963b2ec7b2b0d5de69d5"
+  },
+  "inverter-aplus-05": {
+    "src": "/images/published/5272b5fc9a34a35a9a7611327dd134fa03769ccf997e9433dff5652e1031424b.avif",
+    "originalFingerprint": "c5e30a80b6b2ce76363e55d4f9b948487f01a097c606880ce0d716b03e23e767"
+  },
+  "inverter-aplus-06": {
+    "src": "/images/published/674b5e6541fcd94b59dcd9bf26c260919e8563f9a0c6a76b9b66e9e2061f47b2.avif",
+    "originalFingerprint": "053bf86ca083d3e10dd32a266701d3e92f520287bc497a1ba2e4b56df7e6bc2a"
+  },
+  "inverter-aplus-07": {
+    "src": "/images/published/6557179f2ea590638c17cb686ed89aaca8221421b36fa35a18e29cb88ec701cf.avif",
+    "originalFingerprint": "a77df5ea1edc3a3586d7f368fe955bc5859c65ba557b4184f8ad8516643aed17"
+  },
+  "inverter-aplus-08": {
+    "src": "/images/published/d78af7785ffb1998b1be366aff2ec6be04bcaf511fbdb1fa2ab3f66a4fcb5048.avif",
+    "originalFingerprint": "eee8c48f412dabe9d3a19dc21f7a635944b3f094b63616c56567b475469f8399"
+  },
+  "inverter-aplus-09": {
+    "src": "/images/published/77f7e52a30d57d1570894da13f649f1dc91380af4d627534ec9608c2eb0a0b0c.avif",
+    "originalFingerprint": "193e28033a6ce1713ea31ec76cbdae6e7bf0a210545bfcc91b7386e71384f802"
+  },
+  "inverter-aplus-10": {
+    "src": "/images/published/6f839d34677f1432d2a787acb6c1a81169edae6430fdde459ffca234298d33e2.avif",
+    "originalFingerprint": "0905fbdd42695d91c369b9a0d8253d3d5b5b230a9eccbe7b680b61aa94be2cfe"
+  },
+  "inverter-aplus-11": {
+    "src": "/images/published/922cc36e429760aff51606b63c5f750aa3c647d42883d770e8c7ca276fbba96d.avif",
+    "originalFingerprint": "0bbf2382ec8d696d3afd939a6873c8ad1027f5f59ba964d5be42ff6eba185cd6"
+  },
+  "inverter-aplus-12": {
+    "src": "/images/published/972c77fde1d78fc3d3547aa19641dc750f61fd3bb682fc59d7956230e6150897.avif",
+    "originalFingerprint": "8dddcdcbdbbf2d1ad57e45dc7b437e0d7052f2affa2965948a33e46bb206bd51"
+  },
+  "inverter-listing-01": {
+    "src": "/images/published/eb632d3a5cce99421d3c6c3a2386fc33ef70e0aaca7c57a6b9db21fd81c7f1a6.avif",
+    "originalFingerprint": "e583b4cadce45bbc296d785ae63bc159d8d30bebe4af7d5bedcc4b467852322b"
+  },
+  "inverter-listing-02": {
+    "src": "/images/published/e8abaffe1cc922190a95be6971ba2bd4296177ca77832449b27f79e448ba8ce0.avif",
+    "originalFingerprint": "bb5e25d468e173a6a1d7e58968ccd826eb760cefd260560f58e66b8fa0ec93a9"
+  },
+  "charger-listing-01": {
+    "src": "/images/published/b0524af8761a2bb5b54fa834462e46f1eefc94d22ad1425bb03044457d6f2180.avif",
+    "originalFingerprint": "2eaa2a896f8e44537dea6abd2dc5904e4661248f15720699473f70a6c612c186"
+  },
+  "charger-listing-02": {
+    "src": "/images/published/a98b47a85e9649559e5e221e137f384a6555d13c9c6f5e9470eb7c1e4b3ebc4e.avif",
+    "originalFingerprint": "98ce831a472ad6c58ecb8b534ba453c4060a6dddc57578cccf6c5e4b630f178e"
+  },
+  "charger-listing-03": {
+    "src": "/images/published/1842ebd111a17775a1926c1109aa2aebfb0d90f77d358ea82f10459c1bfc8c01.avif",
+    "originalFingerprint": "512e06abaf67ceb177c2d283b7d01d2b75415bab838d5bcd7ddd7b5bca1d458c"
+  },
+  "charger-listing-04": {
+    "src": "/images/published/e568a06f7682f98cd84604e1bcceacb9b02a3e881a7f514ee9f2d674c2fd98a7.avif",
+    "originalFingerprint": "39a61cb8daa2181b49888533d4037d9a8c8299b242b47aadf87a4a87eeabc13c"
+  },
+  "charger-listing-05": {
+    "src": "/images/published/276d22490e3b5f91fae3b146969bec8009be4b3feea4682106ecf638fac96aef.avif",
+    "originalFingerprint": "b60c62f0ed8db35e5eb6c4bca2cc9ccad15925e822a4d532e29cc7295f929963"
+  },
+  "charger-listing-06": {
+    "src": "/images/published/40abc1992a052417ac8e1627db25fe530e2f72b106d4cb884ad3d28bd7d4dc9e.avif",
+    "originalFingerprint": "0ce58ada5559c15a9e675a753ae67ca9666cf53ee557a1bc0ed575e7ef4fe769"
+  },
+  "charger-listing-08": {
+    "src": "/images/published/9f3d9311af202c0f31f8fd7df2cc3dee7f1355f512ff0976f8a942bd6199a7ee.avif",
+    "originalFingerprint": "e3ef6e3d48ae510d354d9c0d0cd4de1a1831e53587c65f5381aea1076ed3fdd8"
+  },
+  "charger-listing-09": {
+    "src": "/images/published/88c5f015129ecda5e2860410b7a8232229e400b1ed86eded8cf7c9bd46876b88.avif",
+    "originalFingerprint": "fd22fc18debd10ddb5fdf9a5c1313364a1de35232288ed4ed90aee4d1f4ffe1b"
+  },
+  "charger-aplus-01": {
+    "src": "/images/published/d0f8b7f3eb7f2b652e669ecabc9353dea23383d27f0e63c6988c6849a7c1271f.avif",
+    "originalFingerprint": "c6aa471362d520679ae48d30a78099e270e85c8fd0e495737f3083911b6cb184"
+  },
+  "charger-aplus-02": {
+    "src": "/images/published/e32ff3de08c465f228e22a5d7010c27cd7681026810f57da7877dedd18968e0c.avif",
+    "originalFingerprint": "b4fd0651c5d0dcc5615facc9667e0af3e7df468ce7646e2771b6145a83857f82"
+  },
+  "charger-aplus-03": {
+    "src": "/images/published/2d9314e69b424a5b76a02e48ab36e6c4d1ba1e8c4a42dd86eb8eb6cb3dc8a482.avif",
+    "originalFingerprint": "6d067f0d46e8c958340855b6f706ebc0722047f4749d1e99120b3122fe8c0076"
+  },
+  "charger-aplus-04": {
+    "src": "/images/published/84e4e94e20648c13c1912a9f1a5c1f1a7cf668cba48e7d572aff49afcd92c86f.avif",
+    "originalFingerprint": "4af291c9f582ed5380dc33aeb68de60b776915a47e7ca30f42c869716f1d10e3"
+  },
+  "charger-aplus-05": {
+    "src": "/images/published/64fef38846f80fd40d1ab3c24f6d18fe0f9d37e8b9831806065574e38408828a.avif",
+    "originalFingerprint": "ca74f4a630a179014e149e9a6c8c86332ea39a9e9886bc7f7e5154c8b60a5d0d"
+  },
+  "charger-aplus-06": {
+    "src": "/images/published/fb423ef32e45791d423b6538bcd3ca676c6c40990c9cad6da736d60b4c3eac0e.avif",
+    "originalFingerprint": "8ca5a73fecd41247bcadcb6508b3a82b0920c375dbbbd12cb0a705bdf71f1f46"
+  },
+  "charger-aplus-07": {
+    "src": "/images/published/331b3f783ed1973a7f29caf912d683269f61970c979c5163d1d2886479031cf2.avif",
+    "originalFingerprint": "433de61c244d819741a65781dfdaf17ec179c8674e83bccf9b84b18b7347d27b"
+  },
+  "charger-aplus-08": {
+    "src": "/images/published/d94e6f06233b1e6da93e98af71815346a18a2e86719f5fe795e0c580dc5c9cd8.avif",
+    "originalFingerprint": "2936f9fd7399e63619dc82a76ebb63e3424e52a17588409a09e8f5e1ae13f694"
+  },
+  "charger-aplus-09": {
+    "src": "/images/published/c41486777e6cb75bda14a78a78f8672bbd63c25da9e5ff703535068ce99109ec.avif",
+    "originalFingerprint": "00e34ba373880e05fb2f257e47539c4a579eab0202374c447d58615f9bde5c6b"
+  },
+  "charger-aplus-10": {
+    "src": "/images/published/f181704b0936152cf3e52908cc9432f5184c64cb9d287ac47d9ac32fc7d9cc9c.avif",
+    "originalFingerprint": "16efb74264738f5a7b47ad5543d52f5b84c6ed3b088854fe12634feb06fb7f77"
+  },
+  "charger-aplus-12": {
+    "src": "/images/published/71fefeb1b6942f1a9f2b6c3ff124d4f5a823408537b519552e55ab3953829eed.avif",
+    "originalFingerprint": "ff2394296265891d0b2ec5aa27ac88800440f0333dc9f06055155e3a805adaf3"
+  },
+  "charger-aplus-13": {
+    "src": "/images/published/3e81c56ef3284394c3686317badcb09386e47123f6c5ef456a122f89a73c77f0.avif",
+    "originalFingerprint": "01cf5501ad69b544de97bad9d84ace6d88ea7f4e2c95debe465594cb3960e499"
+  },
+  "charger-product-01": {
+    "src": "/images/published/0e1c15c6e22be1b9d392918759b7efa27aa07bbd199be12c6304ad1b4bdb37a4.avif",
+    "originalFingerprint": "0fcd96c1e9d684b902c3cffafc44dc6ba7d1a7112fcc6d06fb1619a5cea4c704"
+  },
+  "charger-product-02": {
+    "src": "/images/published/24416ca917780432757e66f954f947f6ef842d75e1bf090b454eced6b6995fdd.avif",
+    "originalFingerprint": "a44484bd11d15925b1b0d021481ffde169f36c3dfea75e16e7780cc539779c8b"
+  },
+  "charger-product-03": {
+    "src": "/images/published/51f60f491fd00a3821bbd40b2d121b116751cd22ffe2e64bb280cbb7b9047786.avif",
+    "originalFingerprint": "2cbd458277344fbfda1b0f6a85ea1661ab1cfe1bb0d42070087600d6c0a69fb3"
+  },
+  "12v-battery-listing-03": {
+    "src": "/images/published/b5f8f16efae31a4437c88ab19b560da3fba787ec81dc822fc0062589407c6456.avif",
+    "originalFingerprint": "5d3dc9f15d2de82e1938fb1652e7bf79fe33a24d34ef6a70156dc84b33d25627"
+  },
+  "12v-battery-listing-04": {
+    "src": "/images/published/39ff49e20fc6871afbbf91b32a43dd1b797d5668c0bd9a6e1797d32fa182fbef.avif",
+    "originalFingerprint": "b8b9f2e9b4fdd63e77ee5c7bffabde01c177c2b641c46e01ed56be1e0b8df95c"
+  },
+  "12v-battery-listing-05": {
+    "src": "/images/published/dea78e16b421031e2372d334d03fbee8ee0a051247bc640d01433b4fd13d522e.avif",
+    "originalFingerprint": "778a2996d5655a69ace8e8866bb7c46dd8030190ef05c76a49993674443e466a"
+  },
+  "12v-battery-listing-06": {
+    "src": "/images/published/9759d34c6b72d0a0a559a3ebb284b456c91476a5c693189cc3c2b482db691b3d.avif",
+    "originalFingerprint": "14e26ec529a96f04cecf2bb8493cedb9b239932e3eb89dd9bf45e2b7540771b2"
+  },
+  "12v-battery-listing-07": {
+    "src": "/images/published/d838381595b906e80c70f651b7ca4f0e063f2941cf0f45e38254ccf0367e6edf.avif",
+    "originalFingerprint": "c648d51b82948d3e6fb7b59ecfcdf9b5e26fa3b8bbbdf5bf8657cfdc790be78f"
+  },
+  "12v-battery-listing-08": {
+    "src": "/images/published/dba87de3dd4e30b9ff31f0d1f54e76aface2549cf99145c1b068f91c815a91d6.avif",
+    "originalFingerprint": "9bca475e4d7da4ede6fede7c0c268283f3cae79126e4fa395e58d4ab2cacee74"
+  },
+  "12v-battery-listing-09": {
+    "src": "/images/published/bebe90d25fb36d3c1b07145d39f640a1523c8387281b407c94cf5f2361b6ef92.avif",
+    "originalFingerprint": "af66f98839c8d563ea5271a3219f48780e12d1c73fe52c9ae71a5212c74304ea"
+  },
+  "12v-battery-listing-10": {
+    "src": "/images/published/e97f8cb3b2d6e9a9d6b3f8590f03120598283c2f54ffcc467bce3dd6df2bf3eb.avif",
+    "originalFingerprint": "fa8a06b3f9f393a6ef9ea4cc486b3e91d71b615c6e22df96d3877db73c5beb55"
+  },
+  "12v-battery-aplus-01": {
+    "src": "/images/published/d4b6022ac71835f1f72d5f5343fa59f73a64dfe14d771672e149780df2e3617f.avif",
+    "originalFingerprint": "633a0c0f10391c53680efab5a7d0baba60c56d76e0f1dd7f28040e1c531c4719"
+  },
+  "12v-battery-aplus-02": {
+    "src": "/images/published/45bc0b908c182659b8349b42d053d65a3986f450a7a50e8fc2de0edd47d6df53.avif",
+    "originalFingerprint": "c408bab06b96a38b17947cc0e19e91f28efff7c9b21c2fd931c2b3123d31fad4"
+  },
+  "12v-battery-aplus-03": {
+    "src": "/images/published/10b12223fa220331730e07100467649f87cd53192621ac95c363e2d00ffec4e0.avif",
+    "originalFingerprint": "f745c82d7273b0b35eae1bd8aed86a68d644452de7ca50c01a7a86bb7df7c3d5"
+  },
+  "12v-battery-aplus-04": {
+    "src": "/images/published/b1310ee17f254e4cb247ab107c0465f5e2b390523c05ff037e0d31d07c458404.avif",
+    "originalFingerprint": "24e2f28d9a286bdc11e2b79f0c47f43cc10fd1efc74ca3a5d5f38a2eee2a11e6"
+  },
+  "12v-battery-aplus-05": {
+    "src": "/images/published/00e16e54ab7b2c32d87a61f9de9655c5671e0f80a1438859a29f8695c264db1d.avif",
+    "originalFingerprint": "b6b048784aaaffa1f2335c131054cbd1e009bedf1e3bce6b7ebfa9f61297c6c3"
+  },
+  "12v-battery-aplus-06": {
+    "src": "/images/published/086b8f12c4daa930b4b4a177f48fb9b336328b104cf872c51a6ab0dcc197eff6.avif",
+    "originalFingerprint": "073cda71a6b9504dc9a7a255bb3e2a2a7bdfff60b2f8b0d9a21e5699087ee6e5"
+  },
+  "12v-battery-aplus-07": {
+    "src": "/images/published/aaec9fd4d25e3683143e976c91435720efc9fc2b5778c3e1dd1f8703a6d930a1.avif",
+    "originalFingerprint": "9a2bfae2dadc11295b53fd9bf9356f0f93397b88b6cea87775670be0a4cc3b6c"
+  },
+  "12v-battery-aplus-08": {
+    "src": "/images/published/cb77c254eefa6aad12f1c1984a7cc66bca4e4265ccef128d3a7f10d6967df4a0.avif",
+    "originalFingerprint": "320034c2c1845c760c8d5db4be6034d37ba071c81537ea577a63a2b05e19b287"
+  },
+  "12v-battery-aplus-09": {
+    "src": "/images/published/e758af3194fa394b2c466be894d3fff33e3a43271868c230610aa4ba0023d051.avif",
+    "originalFingerprint": "8a569ab1b1c6c270fe08fb6ed7cddb7e0cf42aedf1dd79f6fa2c5ba673ab19cf"
+  },
+  "12v-battery-listing-01": {
+    "src": "/images/published/48624099187ecc5bf0916643678cdfa1ec509a278b0e5759f09b42291f1aa7a7.avif",
+    "originalFingerprint": "36a9dbeaa987cf77092aacb38e9119014cf04eeafc01df4b9cee594ae447306a"
+  },
+  "12v-battery-listing-02": {
+    "src": "/images/published/7bdaac8c1e731347cecf2a3de7084c8dbd0d697d5f4f4165c401fc3eedae6da6.avif",
+    "originalFingerprint": "a3dcda974f84f57ee22f1d94b8fa021d15513ec4202675fc3a87951f1bb6484f"
+  },
+  "electric-outboard-listing-03": {
+    "src": "/images/published/5a90120e8e0adaa654045dd1f1588c9256c07a0d59096128160a44626fe9e6c3.avif",
+    "originalFingerprint": "ea86ad4fa168dafc261431e8ed5a3a7abac885802bda40fd8a2f80d98a1c6eaa"
+  },
+  "electric-outboard-listing-04": {
+    "src": "/images/published/5f536954a3c2f008b49838c2f2516b33ffb225bbc2a714c7b429905b87bb3212.avif",
+    "originalFingerprint": "5547e5d123c64f0c187c35d88bce75eab95e40cfc4ba43bf3b3b3c3c2f270aba"
+  },
+  "electric-outboard-listing-05": {
+    "src": "/images/published/c97cd6373ee885a311138c5c399a5afc2bfcbb6eda088d1faf02b111e7b05b2e.avif",
+    "originalFingerprint": "146b2c2af00a6f4c02cdeced540c100b1ee8ee66bd190a4f7def85939ba662db"
+  },
+  "electric-outboard-listing-06": {
+    "src": "/images/published/d9b155a102895b97df9fe683276d932a3d807e5da2e035f594010f6996b85c28.avif",
+    "originalFingerprint": "90988e6fb8e7f9e0a4ce1070ba708ff58e8eeef77f2f7f1edda653754be1e519"
+  },
+  "electric-outboard-listing-07": {
+    "src": "/images/published/004b9cf466fcb6aca6b5a37ffd8e0b9206ef328d65fee27272f73e544887d929.avif",
+    "originalFingerprint": "dc24e0dcc1703c95ba209bdb77e21d5b2c7c3ad4cf76d6c963d3f54f71f9a5f0"
+  },
+  "electric-outboard-listing-08": {
+    "src": "/images/published/88f51fb010a50ae544020e7c00dde088d323854cbde8a5ce68ab541b114f85c1.avif",
+    "originalFingerprint": "3eaecb4b3aaded3e6d7c095ce366b7bf692e47c0c1b50ffa0f1836872e7adcbb"
+  },
+  "electric-outboard-listing-09": {
+    "src": "/images/published/a761252335b637a8fd6e9da8559d8225635601a2ae8ee03c52620386e342792f.avif",
+    "originalFingerprint": "fb7498c4f679f62a9c542559754db48efd6f8f5b2f2ffe96414056c642c9686b"
+  },
+  "electric-outboard-listing-11": {
+    "src": "/images/published/dc50b03c86f03c87083a6d2d0cb198589d373dec527588140b66842ce9573090.avif",
+    "originalFingerprint": "81930e2ccb7cdeecb0a9a72fc13847a7ba19c79ad433ba0578787ae5c8671347"
+  },
+  "electric-outboard-listing-12": {
+    "src": "/images/published/b99830f803a2754be482bc08c0160c9736fd2984f2493a47c39be6b6b39af7d8.avif",
+    "originalFingerprint": "ec699ced048d4e3023ecec32975bdbd3b8d1e439b2b12479c59003cb8cb69370"
+  },
+  "electric-outboard-aplus-01": {
+    "src": "/images/published/1a58016fd16b2391bb95a02f8e2620560f6e570a6d03610253f1b8369c66087d.avif",
+    "originalFingerprint": "085ab18b53fee3dde9727b731206af779f10f607db43871389a580d159725a0b"
+  },
+  "electric-outboard-aplus-02": {
+    "src": "/images/published/dec365f10d931b2ec3dc1550de4ce1eadf2708ffc48e4d3c4eaa96fe78b3954d.avif",
+    "originalFingerprint": "d1cebcacc2560b3a3f3e1dbaf103a4f958aed22a4895703a18ed70161c6efdc0"
+  },
+  "electric-outboard-aplus-03": {
+    "src": "/images/published/7d698b65f6227dcafd5e680bc1c6f9ec2555fe5a90059e6b8f534d1fb0d3b19e.avif",
+    "originalFingerprint": "c39837b1aea419cf7d1fe1ef552e896cbb1214b89dfa07a4b922898cfd518124"
+  },
+  "electric-outboard-aplus-04": {
+    "src": "/images/published/f7ef6c2ca17655f4acefcf004df86954fcf9bbd7c634ea45c0620052e14385c6.avif",
+    "originalFingerprint": "bc00a65fb91cdb96d35263397fd606a60e0e6e946098935a2c1f8dbad41af3cc"
+  },
+  "electric-outboard-aplus-05": {
+    "src": "/images/published/2facbd8428650e613ac17c26bd5ea57b93e01be7bc67a72d0f8e8521861385d3.avif",
+    "originalFingerprint": "59d16987448c7622943a646dfb14a084693e68701ead731bcdc32196f58f7040"
+  },
+  "electric-outboard-aplus-06": {
+    "src": "/images/published/9022f3feee6ec4e750d5a7f3977e75f5f60ef12d9cc56816352bf38573997656.avif",
+    "originalFingerprint": "0aa1ec03871a9a4285a76fdf9aac37375f0ed37060dc5e2acff548ac9fe5ee3e"
+  },
+  "electric-outboard-aplus-07": {
+    "src": "/images/published/17e400ea47937903c256dc4ff1e13686a8f797c19a3c1d2da20274dcf62cd2cf.avif",
+    "originalFingerprint": "8fd024598bcf993dda81dbc238d29d72853643cc57e684c5afdcaba1f90c5042"
+  },
+  "electric-outboard-aplus-08": {
+    "src": "/images/published/49e3bd430c904aff27efbc109ecd02725f38ddc584e2fdd4e6d6114bdad48687.avif",
+    "originalFingerprint": "3879c35e50e9f949b9a3b320627057ddd05e6951e563a6ac93bed071091c705d"
+  },
+  "electric-outboard-aplus-09": {
+    "src": "/images/published/72b3255aaf38b1c794d9542bdf2efba55008b8f951888adecddb28fafce7f013.avif",
+    "originalFingerprint": "d8d97461e50d364a920496a5c2f1cbcd6ffa2d9d4a62d3f2a57cb8dde250215c"
+  },
+  "electric-outboard-aplus-10": {
+    "src": "/images/published/e7b5677de63d62614a18fc76fe37cd91551711c546d18e09518a623d914488da.avif",
+    "originalFingerprint": "0d76ad532593caa19031287577d0e704532d0bccd41b6a213aa0c8f94119c73e"
+  },
+  "electric-outboard-aplus-11": {
+    "src": "/images/published/ed072fe71919883b139a0b2d5715c947d24fe0a7eaeb9fa7df9304461141e3cf.avif",
+    "originalFingerprint": "05af431e61d40d6b944210061b44b1817752d67d9327a7f22e7d4848765e991d"
+  },
+  "electric-outboard-listing-01": {
+    "src": "/images/published/c4d1046f777cdc7ef74714c2938e0c4bc7ecf21f4eba28b1799ec936f0dbebd8.avif",
+    "originalFingerprint": "282f2265e6b2823b5be70763b9831d5a439329930951d35a584ef430eda6c614"
+  },
+  "electric-outboard-listing-02": {
+    "src": "/images/published/9af7b982165ec1f6894a8f8ecc6e836c1e6776f67fb43319d5c2df8fed371337.avif",
+    "originalFingerprint": "c3f10c0a5230a4dae06cf47617695e5cc7a84c02545af6acc9f59bcb6f819356"
+  },
+  "electric-outboard-poster-01": {
+    "src": "/images/published/7b0a9e974f4e0f26d20cc05e2155543dc75dc514bba23c3adf23c4f42b532d3f.avif",
+    "originalFingerprint": "6874e86348137662e5715b5b6bd89b0d7679c532f1607c48fca03a9fc78621e1"
+  },
+  "electric-outboard-poster-02": {
+    "src": "/images/published/05c83582c73fd3b087142c3a02342d240a84203e348a011b7246340385c0b497.avif",
+    "originalFingerprint": "eb6254b21496527f1a23a01e6d000799158d8150249f947739b32ea11406cda5"
+  },
+  "energy-selection-visual-01": {
+    "src": "/images/published/49ddc7c335a2e5b37a3498e5f56168cea6000edc3a7dac0eb75f7ba03db4db08.avif",
+    "originalFingerprint": "08afb642d19fd255f6bd9797408c8b5c67af1fdd8d4dd6efd6ad3a0360cbc66d"
+  },
+  "energy-selection-visual-02": {
+    "src": "/images/published/cd4af105e83313a141d3fc31f940ccf54127c5164372b6cbaa983357405a2d4c.avif",
+    "originalFingerprint": "5989247593e8929f8efd84c5d0dfa35282d67447d6a4eddc59bd8c7976fbb77f"
+  },
+  "energy-selection-visual-03": {
+    "src": "/images/published/dd03e82a892e592f079a7bfe7d1cd3f726d933020ffc1d127aa78cb11300f1eb.avif",
+    "originalFingerprint": "fc123b6eb0115f4d75ef3b12888e0e561d470bb3f73176ccf5b2c1a67ac8c9a2"
+  },
+  "energy-selection-visual-04": {
+    "src": "/images/published/7a2e4dbe0bc15c47b1107c1a9959a00d8ce81b7edc3b0a0144e11792a429e2e1.avif",
+    "originalFingerprint": "b040c2bc044079da1d593e4b18ff4bafb151a9aa6c013058ec95e612071fc1ed"
+  },
+  "energy-selection-visual-05": {
+    "src": "/images/published/4e0529e253b68ff69c9cbd7024761ed398aba47a625296d1c4e1ec2f3550d673.avif",
+    "originalFingerprint": "b66ad075c44933c2e599c9ef09e7865296649ed2412d0cc769f88cd259f3b25a"
+  },
+  "energy-selection-visual-06": {
+    "src": "/images/published/89a42dc5e4f44caab7032181ecac4c4312bec0c179cb5ab5362e087df259f130.avif",
+    "originalFingerprint": "544ec2e49009994850f5cfe2324cd4632b2013bfbbd01c11565f0c6120098409"
+  },
+  "energy-selection-visual-07": {
+    "src": "/images/published/a30e3c0e748dc0dc9d600d3ccfaf8670275cf83bf95071bedef25193874b653f.avif",
+    "originalFingerprint": "e04f63bfbc7e9a0cce6f08fdf59bb63c4595f7b157b1d46efd90dc6406db7157"
+  },
+  "energy-selection-visual-08": {
+    "src": "/images/published/dbd868c24c23a6121721c5a9e9a499b8711621d898223997dc287889c9342d5b.avif",
+    "originalFingerprint": "1268f7582f951e7cab8614f308eecfaece84c6a59032c3743a7e3ec038169590"
+  },
+  "energy-selection-visual-09": {
+    "src": "/images/published/f5cf4255b156e6158ce68e63dcc3420813fd24834af93b416fa8555ab5c8a005.avif",
+    "originalFingerprint": "943740414f9e45dd91f7c0cc7c5344df6fa20b74732bf2035076c4b7420c4349"
+  },
+  "energy-selection-visual-10": {
+    "src": "/images/published/562aa4cd081c07e6d2b969fbdc8632d7ecdfa71587c4090dc8965b03a1e4d9e2.avif",
+    "originalFingerprint": "100c07e08c9be4662a8ba438f2c43939bd6e63caef59b59cc05672a554011981"
+  },
+  "energy-selection-visual-11": {
+    "src": "/images/published/57a9f44eadfea269f92bb3c7f9d31c1e27f0178222cd479cdbb6533028d56c31.avif",
+    "originalFingerprint": "2f8d7fa4f2e22361beb6bbdcaf7d6812af2524072b71273758a7c49a3f51e9b3"
+  },
+  "energy-selection-visual-12": {
+    "src": "/images/published/4629b2e5fd70fc72e7db74251eca396139de255344e642a98da64da447559fba.avif",
+    "originalFingerprint": "fd05ceca1ae2556669324cfaf717830d06775e2affd1924bf451a5fb9a9421c4"
+  },
+  "energy-selection-visual-13": {
+    "src": "/images/published/772263e6ddacc6292c4c7771c2a8d9633416f0a220e1b9890c8e37020aa8b795.avif",
+    "originalFingerprint": "76b24c8009f93a48814f1b5908d5c191dc523cf737e69272c7d1a6f68c257029"
+  },
+  "energy-selection-visual-14": {
+    "src": "/images/published/876cb311e1350b9447fe3ffe7a841921bed7691f6d926d09fd8d7f8decfb53f2.avif",
+    "originalFingerprint": "06bfddb31865bc0f95ff8a3321fad0e0bf3bec8f2f740e3545b65ff0238eed14"
+  },
+  "energy-selection-visual-15": {
+    "src": "/images/published/64b1b8934646beca62f2a2df33d4b8ab4acbbac3bc3ae9e157e83e51c7d7a82d.avif",
+    "originalFingerprint": "73050fef3f53e20231b3fc221af70ade89b6f2cd43ad8e1f5b9ffcedbc9a6f45"
+  },
+  "energy-selection-visual-16": {
+    "src": "/images/published/10abd3834396824f190a2320b7ef6590eed7ee80891e6204a1e6ea0c8245dc34.avif",
+    "originalFingerprint": "0d2cba275a167f5eb42c66151ba1c25cbd7bd251e31c395203d8c87de2937fbd"
+  },
+  "energy-selection-visual-17": {
+    "src": "/images/published/216cf1aae52a1f9bc664c8bb999c168a9ea5cc84ca546caf001730a8d428aaef.avif",
+    "originalFingerprint": "774685fff0fae5f06f713d0eac10a59f36b034d3ea0374a7455fad29d700f3cc"
+  },
+  "energy-selection-visual-18": {
+    "src": "/images/published/ac41289949985e3fec2ef04823c3ca8b9f4f9319cc32f9cc99ee58652cc1b203.avif",
+    "originalFingerprint": "2919e7266c882ffd0bd797ac18b002472cdc0ed51b2f76f17b3e4318d0b2a441"
+  },
+  "energy-selection-visual-19": {
+    "src": "/images/published/8e182b429a07f45370d7919844b65e34b4346c7480441296acab44b512d3d2b3.avif",
+    "originalFingerprint": "c1129dbf1d69af74a98f444d31db2c8314c49ef70a23629c7e040c484ab681ba"
+  },
+  "energy-selection-visual-20": {
+    "src": "/images/published/b75a4f34a7878e9515143f931954eccd8adf0d983bddfb8ce698d551efacd626.avif",
+    "originalFingerprint": "0fb4e494b222520dad72c834204eff4ba29b24ea4a236793f352bb998b1b26cd"
+  },
+  "energy-selection-visual-21": {
+    "src": "/images/published/29c53724621b81611b13e4ebb847b55e3eea7a7e88bfe054a82247a33dae1ee7.avif",
+    "originalFingerprint": "150c6b5273810c4eb50a7c6421b9aafd5b41154d2526840f550fe2a9efd65d49"
+  },
+  "energy-selection-visual-22": {
+    "src": "/images/published/1f7533b080a6489be2a49afa0426f36932024c4b78bd70920409cae02ed7e340.avif",
+    "originalFingerprint": "b073742ca70b67863abb8cfe89cf85c5d4427dab2eb8e05e3afdd2634e2c11f4"
+  },
+  "energy-selection-visual-23": {
+    "src": "/images/published/b0b857cc92e7300ed4bff2d27d65254a99d637fe472b3f6d2014d3e834e2bae7.avif",
+    "originalFingerprint": "6d80baa46ac2007b3ecf00bd9977d8ce7a665a9dba6e94538159743961cd7586"
+  },
+  "energy-selection-visual-24": {
+    "src": "/images/published/2cf2c409bcc546bf631feb587a5746b1f9942b5cb00e4aaa7dc73c60fb08d2ca.avif",
+    "originalFingerprint": "829009bf3219f48f011413237ebcf506f53225b2312bb11c8bb66388a1de89e7"
+  },
+  "energy-selection-visual-25": {
+    "src": "/images/published/febc4a5ff143cf3666a711481faef0d20f69e2ee2ffa3db0bae1d1198cd3ec6e.avif",
+    "originalFingerprint": "40b8f343b8e65f63781054a7fcf3f0aa8b591c4f6112dd28aead2038b2462ecf"
+  },
+  "energy-selection-visual-26": {
+    "src": "/images/published/950ca3e9f961c271c813ff819f71054105fdcb399ceb6a94e3bfe74d76252557.avif",
+    "originalFingerprint": "fda37222d74e86c0421bbe7c94c1abdb7f497e0f536395b35c02fad78b0b275e"
+  },
+  "energy-selection-visual-27": {
+    "src": "/images/published/fb05388efebd14f603d360c6a1590d8c1ab6209f96d8078eb5bf6f72d861a8ee.avif",
+    "originalFingerprint": "6e6f39ba4ef442dc7c14804f4498a760628179603079bb323fe10222df65d2ea"
+  },
+  "energy-selection-visual-28": {
+    "src": "/images/published/ca247b078017cc794febcfac5055e6bbb8c3c6647eed1558f624c2ed51e7759d.avif",
+    "originalFingerprint": "2053a23913e3e8cc1f1d9b38f2ce4ba04035f302c5b0fd2582dc7bc105da210c"
+  },
+  "energy-selection-visual-29": {
+    "src": "/images/published/ae16d56334269b7383cc042d23372d758dd48da1a60feb5fc16367df415d5676.avif",
+    "originalFingerprint": "f65c021fa613652987d138e13d765c277f854eba23a46593bd938bed7518e1e7"
+  },
+  "energy-selection-visual-30": {
+    "src": "/images/published/29cd4876b44404c56ccef529751cc149f47a22c1d1fde5068cbb72925c24f420.avif",
+    "originalFingerprint": "6d3f9e36769cada024c4b367f5e2601259cdf7ba28c3926d1e36157643a9112a"
+  },
+  "energy-selection-visual-31": {
+    "src": "/images/published/7d50040bc93f7a1b8d8ce15df918eb96a484239ba5c12f28a71cf046b6beb569.avif",
+    "originalFingerprint": "8173467143576a231b676281006754db6841c46200d38b54c202126b0c6e3cd1"
+  },
+  "energy-selection-visual-32": {
+    "src": "/images/published/c3f98148950c3fc797961ec496087dacae87a55bb9a7c4ad2f6564e837d20490.avif",
+    "originalFingerprint": "b7d93ea539723df16ca65580ee1a18b12a9c091e684a99a56e19162ae41f5318"
+  },
+  "energy-selection-visual-33": {
+    "src": "/images/published/f4fc0c09d407ae6e5c1b8162b4fe311904732755ecff8c49265569bc787599df.avif",
+    "originalFingerprint": "fdacad4e9c79ec145624161830cc5b3abe194ed7cd4779a4d4ccc1f5c6c606a7"
+  },
+  "energy-selection-visual-34": {
+    "src": "/images/published/1ccdebd9a08547749c46de70a264fd8074be83f8dc3d8f4a461852521b9b1183.avif",
+    "originalFingerprint": "5c6c7279d61892764a0d943c7f1fc9bf26e521398245e4530d88b89fe6c53b9e"
+  },
+  "energy-selection-visual-35": {
+    "src": "/images/published/b6e19c91262cde69e28ce9339b61cffef09538239e7d761f97d18f548fb76d87.avif",
+    "originalFingerprint": "7057c692823818ca568261aa64492f770c7ea579e85481c22898caafe92350bd"
+  },
+  "energy-selection-visual-36": {
+    "src": "/images/published/a96e4efb4e207c0df075a7686b0f61704d2a8b38697e0d3d094839539a7e119a.avif",
+    "originalFingerprint": "19bdc21db7b256512b2b0cbd69ef92b972dc1ecceabc32f14cd922d4d2430002"
+  },
+  "energy-selection-visual-37": {
+    "src": "/images/published/8410c8d30bf1448d02799c1e87b8214472f1a597d82f5f565027fb79e58a0637.avif",
+    "originalFingerprint": "b2898741ecc4e0187b54fbcad9024e1f9afe5d6472268a50c50f283e12cbbe3f"
+  },
+  "energy-selection-visual-38": {
+    "src": "/images/published/2a384714cf2980bd6f4ff7bf3d6abd03f6b99458002d3f35658ce04c78ab03e0.avif",
+    "originalFingerprint": "0ea042592862fbc3daafe836e9dc659004111a3917aefc42f227b0b651ad5b34"
+  },
+  "energy-selection-visual-39": {
+    "src": "/images/published/fc2033728d32ff3e7ae9b7cc47d5c7e81168e5afeb22907965227fe1c7f03316.avif",
+    "originalFingerprint": "b7332eb436078610fc63dc8805541a25dd4227bd54f57be272f56b47f36c8999"
+  },
+  "energy-selection-visual-40": {
+    "src": "/images/published/1fc75a728e31ef9266720dc4b80f271bf530078927dc8a5806c5c33e40142800.avif",
+    "originalFingerprint": "795f865c0790711ba01694ec66bb873abfb53dbd589f2c7d5a5f15f5af083607"
+  },
+  "energy-selection-visual-41": {
+    "src": "/images/published/94a3cec650c6b66546d4441740ae0eb97f70ea75af07b2e362d5dffda9776586.avif",
+    "originalFingerprint": "a1a2e1cfcd3189c42049a31ef248f31e512db0c4282c184cb5f3cbf324b46560"
+  },
+  "energy-selection-visual-42": {
+    "src": "/images/published/3a72914ed65e4b271844700c88dbbbc28d0c0525082a742bd7f951622d76dae9.avif",
+    "originalFingerprint": "372fd2c6c908060c82a4773742559c78cf5632071045a7c18427af03a0e77a75"
+  },
+  "energy-selection-visual-43": {
+    "src": "/images/published/fb4624e63916fa08bf582eb44eda01e172af6632c826b8b7dada15b677f4cbbd.avif",
+    "originalFingerprint": "7e9eb14d9b2436f89ea3f252a1f61ff1d6fdf22e0100a51f9cc5b0949723b774"
+  },
+  "energy-selection-visual-44": {
+    "src": "/images/published/0767eec2cff572bd6c2e912563a1369ef67b8650e396a0ba4b8654f9ab16d891.avif",
+    "originalFingerprint": "34ce42b8f156b3d52acccce41256f0c45f7620329dba49a18e53665b5924dc66"
+  },
+  "energy-selection-visual-45": {
+    "src": "/images/published/940924c41059de8ede63ecf7195a3124df76f4c6c305ff30e739cc10f2ed45f3.avif",
+    "originalFingerprint": "c3a3ce57bdcaf6a0a06860d89e358e553c6bf441b95a6ebb7d983587dccce0f6"
+  },
+  "energy-selection-visual-46": {
+    "src": "/images/published/75c51886a12fd17bd3f9f547cfe7ddf5f6082df3ac7e44bbfc25fc593a50c955.avif",
+    "originalFingerprint": "b3ea45a373bdff7c011f50b3a3ce4232dab454da7c1a38e0ea96f0a3e77788e4"
+  },
+  "energy-selection-visual-47": {
+    "src": "/images/published/a3b198465a5e99f1da8521ccbe38315d2cd8d6ceec7ca0c3ef383916d242f360.avif",
+    "originalFingerprint": "f49a99fbb6b525330c2ac271b544d49ad2c5a5ebfd21854758fe0e131cbdb350"
+  },
+  "energy-selection-visual-48": {
+    "src": "/images/published/915a2f0a0c7ef2e2820955e9e4d773ad9150c0e8749f7dd90d85f3085b399f91.avif",
+    "originalFingerprint": "8ce36533ae731b8be68b1a6e7d5976e03f9057b920d6af9e0edb9a8e66711465"
+  },
+  "energy-selection-visual-49": {
+    "src": "/images/published/dc56e4e679b7f541f731590c6729ead39a142e5ed7b2b8377910222511e026c9.avif",
+    "originalFingerprint": "b3f9d00d3486e38749f925231ba5724fdfb5f58f8937aaa411db6ece76e8abd7"
+  },
+  "energy-selection-visual-50": {
+    "src": "/images/published/7b0a9e974f4e0f26d20cc05e2155543dc75dc514bba23c3adf23c4f42b532d3f.avif",
+    "originalFingerprint": "6874e86348137662e5715b5b6bd89b0d7679c532f1607c48fca03a9fc78621e1"
+  },
+  "energy-selection-visual-51": {
+    "src": "/images/published/05c83582c73fd3b087142c3a02342d240a84203e348a011b7246340385c0b497.avif",
+    "originalFingerprint": "eb6254b21496527f1a23a01e6d000799158d8150249f947739b32ea11406cda5"
+  },
+  "energy-selection-visual-52": {
+    "src": "/images/published/d1bbb97d365f43272f1dbc8ac6ca7f681c22a6a30d071554513416962d3d6e7b.avif",
+    "originalFingerprint": "304c7a46f0945165f282ba5dae5fad570e408bfc25e6398707ea2a5b0b99eb26"
+  },
+  "energy-selection-visual-53": {
+    "src": "/images/published/fffadc23a5b6b9892f203e68def3e493b3e6dcb9e8ac4c4db41f56fe7a7fc270.avif",
+    "originalFingerprint": "9afa67a297da08bacf82e57465dea0bcfc5b0b612e06bef21e8f0cd8176ad762"
+  },
+  "energy-selection-visual-54": {
+    "src": "/images/published/c5f3f6684dc8bd8477252ce1df6e93e6518c5be41f45376297e936bd5ab46aee.avif",
+    "originalFingerprint": "0a625cc3153585e25ad7fe3901a64bccc7587231eb3ddfa8c359c5bcfdba5df8"
+  },
+  "energy-selection-visual-55": {
+    "src": "/images/published/7453b22668e5866b61d44396c6b8df5edafdbcd01eb7c674805961ae6cd35bef.avif",
+    "originalFingerprint": "f46ae9614cd51df0937fac27d6d0c7752e88d2652f895981aef263afd48085e6"
+  },
+  "energy-selection-visual-56": {
+    "src": "/images/published/0866b9a64dd12488e013fb05f7d13458f6e81421d8c54abaf6bd5c3c258351f7.avif",
+    "originalFingerprint": "9510a11a6042b918ffaca13729e7d897419550fcfa71232985d6f114e15cd63c"
+  },
+  "energy-selection-visual-57": {
+    "src": "/images/published/f1f5fee0b47ef4a286dd512e8ecec1fba3c750bb07a2e785dc6f05374e34e6c4.avif",
+    "originalFingerprint": "5e7fca587f1e32a5de01ba6f4063a0e1c0b9dc40c7b4da57fa93f83da421823c"
+  },
+  "energy-selection-visual-58": {
+    "src": "/images/published/04a9f0ef648694e3274f946261844e7a72e2936997148a3793d12a08100b1bea.avif",
+    "originalFingerprint": "5465277aeda19571117be91e731596b87524c6830fd774bee64b31e3b945c6a1"
+  },
+  "energy-selection-visual-59": {
+    "src": "/images/published/4af4aab5713c67f7d537dfc4aa5b13f5182a7b35dff9adb92ac1e4bc0ef4c21d.avif",
+    "originalFingerprint": "4e41753d653d10bdd1afe87c8624c64b5a8a2cf5a8eb7e1da864169d835f10dd"
+  },
+  "energy-selection-visual-60": {
+    "src": "/images/published/cfab9f5c648ea7fd96f3e3fda115c1d3dfbdbb453f9654455199f023c1fbba56.avif",
+    "originalFingerprint": "a0bc80dafb266c88ee8fbcb83d44aea94d3330931ddf46316965c9fc6afa37e6"
+  },
+  "energy-selection-visual-61": {
+    "src": "/images/published/7945db6c8089e28a9747735a0b5057a8d4de54bbb77556a5fd6c9817ebc80a98.avif",
+    "originalFingerprint": "52c573a7a800d2906f3bf8c8d28f34b930505fc67c7f293c267fc054c1269cde"
+  },
+  "energy-selection-visual-62": {
+    "src": "/images/published/34689a0be38851158909e3c8bfd91b6ff7403259ac458f85d899be12e3b43555.avif",
+    "originalFingerprint": "6f8dc7cc19597a1372590eaccfea937eef8f55e53d5df1e40b1887d66a967796"
+  },
+  "energy-selection-visual-63": {
+    "src": "/images/published/999788fd193dbcf1f9ff9b620d31d742478c5890fcefc5630e905d25f4dfe767.avif",
+    "originalFingerprint": "634097b57ac98885f2dbd518e84f9185b0f7dcb9c7e1850d586de4c9d595a22f"
+  },
+  "energy-selection-visual-64": {
+    "src": "/images/published/6612f098dfcfbda5ec19afe85f421684410b2d7039ad6a436a9974170413987e.avif",
+    "originalFingerprint": "73a7be237b8ae32358880f6c9b2137e9694deac91e62f4c7ff6e1b29046ae77b"
+  },
+  "3c-selection-visual-01": {
+    "src": "/images/published/bd703676d2798960a7a99d2fd429f048ee501ab98a5527c5d5a93d55e506afa9.avif",
+    "originalFingerprint": "5c1555d0a30293145752264e5cc4a1e83326d4e7d73299fd395fe073a10d8d3b"
+  },
+  "3c-selection-visual-02": {
+    "src": "/images/published/63b5bf1139ed12188d82947a01675d402b97e91691c1d44a8a7be52f4c99989c.avif",
+    "originalFingerprint": "fdcdfc47520596d8e678b8dc87b6db091c75f9ec67f8bb07778994e70bec728a"
+  },
+  "3c-selection-visual-03": {
+    "src": "/images/published/ca9a820515cb0a5a0494f7c1f1ad073d649b2137f94eff479a2490d984d0cc01.avif",
+    "originalFingerprint": "1c52a64958bea6991abe467e0b000d5d9b922279049dafa7c1b55b55e8a09374"
+  },
+  "3c-selection-visual-04": {
+    "src": "/images/published/26434b70e91f5086dbde000910df272ecd98f38db51a17bc7d58d6ab9172d2bf.avif",
+    "originalFingerprint": "9df6d473f1277c9ae6da0e62d9dc27b7e9bb85aacdc1a521d4c553e7723c613c"
+  },
+  "3c-selection-visual-05": {
+    "src": "/images/published/777c562b8326c6ed0face786bff988bd1186d18576dbbffb6c0b3d916f7ab64c.avif",
+    "originalFingerprint": "8f2ffea42c1e3e16f4ee9c470157adac66dcdd72f841d43c11a0c399f477700e"
+  },
+  "3c-selection-visual-06": {
+    "src": "/images/published/f4b3a42342838e23bf8753c8a43cb5544dac6954b768ec929f91e14591c3c4d2.avif",
+    "originalFingerprint": "aad9c1b5854fed91e67f84cac1c2956d7dae9725c45aaa2708eb6d1d1e4d9745"
+  },
+  "3c-selection-visual-07": {
+    "src": "/images/published/d6c115d5346212f93d6a4f5e33e05779ca3fdff8613907479204db62c2ede57a.avif",
+    "originalFingerprint": "24a9c76ab9a96896ad364501cc834bc80dbc5de0b26b2e16da71455ea3809d48"
+  },
+  "3c-selection-visual-08": {
+    "src": "/images/published/d07df9c823411f5379b6b877a8ca32871234ee1e8732db1f26d895c890321ad7.avif",
+    "originalFingerprint": "3043421e3af8b7d4a63a91302840943688bd1c2a5278184e2883333010ccfdfe"
+  },
+  "3c-selection-visual-09": {
+    "src": "/images/published/b2713444a29420f1a6bc83e5696908bf946f21d1b0dceef49cbac6bdd3e919e9.avif",
+    "originalFingerprint": "31cf06a351754b3d20ee658cf445fbab66335f3b556595d91e31d8498d81010e"
+  },
+  "3c-selection-visual-10": {
+    "src": "/images/published/fade98ebe07f38a37971a47b04e6c78a1479059e93d26345c78c479b15fa1d86.avif",
+    "originalFingerprint": "ea554fb3fd2bb3a2e01c49882df2b6ea60fcd3b266ef415d9830c30782cab33a"
+  },
+  "3c-selection-visual-11": {
+    "src": "/images/published/e05869990b53726dd1f65dbbd9c441eec04046b6d5eebcdf3c69eb5705d4fac8.avif",
+    "originalFingerprint": "3cac888e455b208c0094ac0693139f10a71e06751494be0366a2398d4565f841"
+  },
+  "3c-selection-visual-12": {
+    "src": "/images/published/6cef4a53d97919478de0be1efb17f7e1e9445b8e09920b41242a209681a491eb.avif",
+    "originalFingerprint": "539bcc2ecf5ada309a4cde54730a25e7edeafa5c11972bcdfc7285601ac0b0f4"
+  },
+  "3c-selection-visual-13": {
+    "src": "/images/published/94b85df0017f830b46f9363184ed8789054e0341998c5903b4902bfa6bbd461e.avif",
+    "originalFingerprint": "392074ef159f5d1feca0f72daaa111e00b6618ba0ebc53620c85f23959d17f4e"
+  },
+  "3c-selection-visual-15": {
+    "src": "/images/published/d809037fca30fba1265f2c0ba06f2e369005f90063aad088521b702418e95552.avif",
+    "originalFingerprint": "c1ed8119ed6019623fa60b709975cfb019cee96f0a271601fa4d8048130a0741"
+  },
+  "3c-selection-visual-16": {
+    "src": "/images/published/549e3da4052a3ddd7ec5301b25c62b6b893d6d500fb8610e92b1d5fc3b06ec65.avif",
+    "originalFingerprint": "875757b3260248d0a2cdcf196fdcbdd1a35d5be87d9fdefd5e11fb6d9b2d3114"
+  },
+  "3c-selection-visual-17": {
+    "src": "/images/published/555c42c24de4db5a47ea375df54994638af77874a8a850c00ed2e2c5628188ce.avif",
+    "originalFingerprint": "9c02e27cb0b89b1bbc6c0b79d7d4fcef1660c7080c020001520da21eec71724a"
+  },
+  "3c-selection-visual-18": {
+    "src": "/images/published/45e1d7a1b67daae8c62f6cce8cf1e8ec6bad97f8aee88dcf5410c99da344c4cc.avif",
+    "originalFingerprint": "5fcd1bb6d8351d9e4ba774c3f1c1df49db645880ed514da73c95fba3996a389d"
+  },
+  "3c-selection-visual-19": {
+    "src": "/images/published/0e3d92bf63eaf1e3fd8612d6672847e2e674b3d3f073df49bd8b29802ec51be0.avif",
+    "originalFingerprint": "4ab52854188cf1522370d55ae3f96a120feec969c7d334f94039deeb26ab433d"
+  },
+  "3c-selection-visual-20": {
+    "src": "/images/published/4df71429819762db2f7e5c790a2b20e3202b8a433749033776280ed209923b6b.avif",
+    "originalFingerprint": "8da753159f122ed59d74be4c4403603eaf63e243e6354b039b613f40a1ec178e"
+  },
+  "3c-selection-visual-21": {
+    "src": "/images/published/c81d92c885424dc00b4345fff06328d1859af7c28f3376148cd19a596a2dc2d2.avif",
+    "originalFingerprint": "c4e62963ed30ac6c7297eb0b8f1d19268a0b3dc6e83e27c67d63124c5cc995d9"
+  },
+  "3c-selection-visual-22": {
+    "src": "/images/published/3258d6f57277b1f014525a5b6a0c962d4ffd014a38b89f840656fc4595bc3b4e.avif",
+    "originalFingerprint": "a50a7983e5e97a57829ba0b99ad03f88f9ea5ccdeafbc8080d57a48f66052ad7"
+  },
+  "3c-selection-visual-23": {
+    "src": "/images/published/506056a8886181db650cdebedb35b0f23bb4b077361f99231918e58ce498e7cf.avif",
+    "originalFingerprint": "b60f85e1c6679bec87d04a5b01da09970c67832f48b2f6b053001b508683b2a8"
+  },
+  "3c-selection-visual-24": {
+    "src": "/images/published/985b13223439b515e1b329966e85428022d4a62fae6bb60d5e36e8186f9dbb42.avif",
+    "originalFingerprint": "248b4d566b2c623d4ef7e2e4c3c3985c0509cf5b2424028920ed73c3d67a5893"
+  },
+  "3c-selection-visual-25": {
+    "src": "/images/published/2fd9a33d374de96dead93281647289f6aaacd899e68aa503f37e835d55849840.avif",
+    "originalFingerprint": "7f8d63de921b6c1cb7ec9adab8345c4c8747f618b44b14c05647574adbc1d457"
+  },
+  "3c-selection-visual-26": {
+    "src": "/images/published/2bd73fe9672c5842dd52cdc017589acecd1cc0f5e63b5040bd1c4b49c817e293.avif",
+    "originalFingerprint": "2efcf4c9c64546595f118f26d4c3b9053471540b3aed246f305ae954978a3ac3"
+  },
+  "3c-selection-visual-27": {
+    "src": "/images/published/64cb738a7ff9244e005a2fa189e06605af6334b05958eccc45e82961fadbce9f.avif",
+    "originalFingerprint": "e8422f4f43e70842290336eefd954125d24adeea3106256ce728e540b8b1d91c"
+  },
+  "3c-selection-visual-28": {
+    "src": "/images/published/2e572606523f152fdf7b4947b7cace61821d9a291cd4b2d87154d7dfa51dda6b.avif",
+    "originalFingerprint": "22bba9ec2ce37e0f0df2d2d1b53c76c3e438b21713f16afafdc4a2397581fb0c"
+  },
+  "3c-selection-visual-29": {
+    "src": "/images/published/9a9e9672e02c53156443251d95d9a99fc3106b7febd03ce7344a2a38de404d93.avif",
+    "originalFingerprint": "7970db3e15a874f379e0cd952a6d8e87fef12bfc7bf1add6f37d8eb96d00f64c"
+  },
+  "3c-selection-visual-30": {
+    "src": "/images/published/659b64de8ae9c4a7ded84814ee858ece5a1c11416eb26deef289bf16bb9f06d5.avif",
+    "originalFingerprint": "223e577a842ffb5fb574df11709747ba1500e333221dd533d26bb827a80a08e0"
+  },
+  "3c-selection-visual-31": {
+    "src": "/images/published/2417b3412f51af29c1a5bd4305e3328039e164d08a82b42458a52f2aea9881dd.avif",
+    "originalFingerprint": "13c60ec105c224cc63988fe6bed471efadf7778dc8fa9996947552acff30cb47"
+  },
+  "project-06": {
+    "src": "/images/published/8ad81c8b9b43d4fe99bc14ff755cac05b8717c726698a3b7e2cd97917e189406.avif",
+    "originalFingerprint": "e406ddb2554aa2fd11a334adfb000dbcfb19c2838738fff735eb752da0a62c13"
+  },
+  "project-08": {
+    "src": "/images/published/3076a666141ed9a2569b17a4c70d05763ef9c1be4a32cefef7fd59bb428993dc.avif",
+    "originalFingerprint": "0b8afaae4dd4aa75c68cc3ab90c489954a5d982d0d7e7b089242a13fcbc70341"
+  },
+  "project-01": {
+    "src": "/images/published/15c68e539a38f6300b0387f8c54d2f36273403a5f1b8ef0dfedabd8a141062ab.avif",
+    "originalFingerprint": "fec43b0cc13ddcae758f4ef3454c10ff662e1eac5be4b484a168a62828e97fa4"
+  },
+  "project-05": {
+    "src": "/images/published/40771ddeb7a0dccb0888e16d62fa2ed2f19004f3e16b35e1280336ca22e7d079.avif",
+    "originalFingerprint": "10558bd5457eff17c077b625273f7699065a86e084ad9cdd73b0cce9c88ba490"
+  },
+  "project-07": {
+    "src": "/images/published/7f7a438c57de1e2a8fd8fe94642cab5568090059d5f82ebd44dce8b59a7cd2ef.avif",
+    "originalFingerprint": "be937cd046f0cac3fb344c440ba7bc32e3c7fcc0c6a947dbfbb95c19904e8189"
+  },
+  "project-09": {
+    "src": "/images/published/fd39b802dc59b8e96971d7ff0074eb9e8cb62ff911d899c9dd7ed6fa5e58725d.avif",
+    "originalFingerprint": "6a93df0fe4955e941968eb7ed9a9d9d7a581abde4e130811aa48d0bd614b2f8e"
+  },
+  "project-10": {
+    "src": "/images/published/90d0c31b98d899f1e826a5e90fead0b08b7785d8011b2eb40f82c6213b27c1f6.avif",
+    "originalFingerprint": "76afd9324c826d749aa90616d866b9e584f95cc2ad75878f6e06adcfbc7f1b33"
+  },
+  "slide-0": {
+    "src": "/images/published/218cba32aeca2e1e8ef08a9eddacf76d8ef14a271c09e98e007d46deb0601db6.avif",
+    "originalFingerprint": "9998f78b6f9baafc3c7ab8ccd059c69b7a76d397aa91d16e9a7daf85c2eb887a"
+  },
+  "slide-1": {
+    "src": "/images/published/b75a4f34a7878e9515143f931954eccd8adf0d983bddfb8ce698d551efacd626.avif",
+    "originalFingerprint": "0fb4e494b222520dad72c834204eff4ba29b24ea4a236793f352bb998b1b26cd"
+  },
+  "slide-2": {
+    "src": "/images/published/549e3da4052a3ddd7ec5301b25c62b6b893d6d500fb8610e92b1d5fc3b06ec65.avif",
+    "originalFingerprint": "875757b3260248d0a2cdcf196fdcbdd1a35d5be87d9fdefd5e11fb6d9b2d3114"
+  },
+  "slide-3": {
+    "src": "/images/published/29cd4876b44404c56ccef529751cc149f47a22c1d1fde5068cbb72925c24f420.avif",
+    "originalFingerprint": "6d3f9e36769cada024c4b367f5e2601259cdf7ba28c3926d1e36157643a9112a"
+  },
+  "slide-4": {
+    "src": "/images/published/95622a3e7958d01002ed8068b63e46067aeb51fe763377121ada284d4805870a.avif",
+    "originalFingerprint": "5e63e72e8383bf630a4751e51e0566a52f4a0c3a6fcd37bac5968f2512c90a32"
+  },
+  "slide-5": {
+    "src": "/images/published/98ef73cfba31f7530380b60e9fbc40ded52be217b5285fa5bc1623cb5105e662.avif",
+    "originalFingerprint": "d13d91248c75c9521bdb411baa98b8de5c0a73fe3b4550945498cb324d65db6a"
+  },
+  "slide-6": {
+    "src": "/images/published/dc32112c2bea4c97c6871a7480c21902b73facffc119e3604a0bfbb47dec8372.avif",
+    "originalFingerprint": "f39cd4cad89e068439c303007c00b8bd1aed8f75fa94b31e6beabb11b6f4f482"
+  },
+  "slide-7": {
+    "src": "/images/published/659b64de8ae9c4a7ded84814ee858ece5a1c11416eb26deef289bf16bb9f06d5.avif",
+    "originalFingerprint": "223e577a842ffb5fb574df11709747ba1500e333221dd533d26bb827a80a08e0"
+  },
+  "uploaded-31d9c5f3-4c0a-41d8-a8a6-9577dcc87258": {
+    "src": "/images/published/75493460615ac214ff42e9c8d438680139c489887e79b3dca69fbeba8ede9978.avif",
+    "originalFingerprint": "2caf4e224b480bbad46b7b0c3f996f5b5c6483b65bb9f19dec499d7278881e5b"
+  },
+  "uploaded-3434be5d-493d-4354-a8e7-362a1349cabb": {
+    "src": "/images/published/3a65ec90b7fa85cbb80d1d574fd14eeaeaa3491d8513dde864a3306354b57e48.avif",
+    "originalFingerprint": "1a1d3a51c9cccfd7aaf9812385d737203740f48e3d9fb532f631f5fc1ffba58e"
+  },
+  "uploaded-75596bae-9e8a-4623-a6f9-7c763dfe34e3": {
+    "src": "/images/published/dc32112c2bea4c97c6871a7480c21902b73facffc119e3604a0bfbb47dec8372.avif",
+    "originalFingerprint": "f39cd4cad89e068439c303007c00b8bd1aed8f75fa94b31e6beabb11b6f4f482"
+  },
+  "uploaded-a7872106-553e-4f1d-a20a-f735bceb65e8": {
+    "src": "/images/published/218cba32aeca2e1e8ef08a9eddacf76d8ef14a271c09e98e007d46deb0601db6.avif",
+    "originalFingerprint": "9998f78b6f9baafc3c7ab8ccd059c69b7a76d397aa91d16e9a7daf85c2eb887a"
+  },
+  "uploaded-c0548967-4a92-44d3-96d3-ee3c377c8d3c": {
+    "src": "/images/published/95622a3e7958d01002ed8068b63e46067aeb51fe763377121ada284d4805870a.avif",
+    "originalFingerprint": "5e63e72e8383bf630a4751e51e0566a52f4a0c3a6fcd37bac5968f2512c90a32"
+  },
+  "uploaded-d34f6915-33dd-4cd7-9060-bafafb9475e7": {
+    "src": "/images/published/98ef73cfba31f7530380b60e9fbc40ded52be217b5285fa5bc1623cb5105e662.avif",
+    "originalFingerprint": "d13d91248c75c9521bdb411baa98b8de5c0a73fe3b4550945498cb324d65db6a"
+  },
+  "background": {
+    "src": "/images/published/136884664f0cf1efe837146be0f6e0c583cfc3e2ab90ea9b0c260406ea19eac1.avif",
+    "originalFingerprint": "8d3c95c137c35b177299841400632be7d35418f1772b72db1acbd744d4ca86a2"
+  },
+  "portrait": {
+    "src": "/images/published/8ca2b164debf264ff0cc4e4f99c24d07f79f626901dec2f015831a02aad024ca.avif",
+    "originalFingerprint": "9cd5c3b3e9cbb27686e25350a28b750d59e95b8b21409087346266c19658aa08"
+  },
+  "contact-wechat-qr": {
+    "src": "/images/published/759fafe053fe6c60b89ac063fda6101280316c868f5b4664b06fc16c5772614a.avif",
+    "originalFingerprint": "bea0ea910e01b9d1c7a1a29abc9c23d4160be8bf71526c11efb7524df7aa56a7"
+  }
+}
