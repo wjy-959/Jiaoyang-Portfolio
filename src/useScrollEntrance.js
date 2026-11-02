@@ -5,6 +5,7 @@ import './scroll-entrance.css';
 import {softReveal} from './softReveal';
 
 gsap.registerPlugin(ScrollTrigger);
+ScrollTrigger.config({ignoreMobileResize:true});
 export default function useScrollEntrance(contentKey){
  const enteredRef=useRef(new WeakSet());
  useLayoutEffect(()=>{
@@ -16,9 +17,11 @@ export default function useScrollEntrance(contentKey){
   function scene(el,from,{trigger=el,delay=0,duration=1.65,start='top 88%',ease='expo.out',to={}}={}){
    tracked.add(el);el.dataset.motionScene='';
    if(entered.has(el))return;
-   const [startState,endState]=softReveal(from,{x:0,y:0,scale:1,scaleX:1,scaleY:1,rotation:0,rotationX:0,...to});
+   const destination={x:0,y:0,scale:1,scaleX:1,scaleY:1,rotation:0,rotationX:0,...to};
+   const {clipPath,...mobileFrom}=from;
+   const [startState,endState]=window.innerWidth<=760?[{...mobileFrom,opacity:0},{...destination,opacity:1}]:softReveal(from,destination);
    const tween=gsap.fromTo(el,startState,{...endState,duration,delay,ease,
-    onStart:()=>entered.add(el),onComplete:()=>{el.dataset.motionProgress='1';gsap.set(el,{clearProps:'transform,clipPath,maskImage,webkitMaskImage,--soft-reveal,opacity,willChange'})},
+    onStart:()=>{entered.add(el);el.style.willChange='transform, opacity'},onComplete:()=>{el.dataset.motionProgress='1';gsap.set(el,{clearProps:'transform,clipPath,maskImage,webkitMaskImage,--soft-reveal,opacity,willChange'})},
     scrollTrigger:{trigger,start,once:true,invalidateOnRefresh:true}});
    animations.set(el,tween);
   }
@@ -27,6 +30,12 @@ export default function useScrollEntrance(contentKey){
    context?.revert();tracked.forEach(el=>{delete el.dataset.motionScene;delete el.dataset.motionProgress});tracked.clear();animations.clear();
    if(reduced.matches||document.querySelector('.copy-editing')){ScrollTrigger.refresh();return}
    const mobile=window.innerWidth<=760;
+   // Batch geometry reads before GSAP writes styles to any cards.
+   const cardGroups=['.project-card','.skill-card'].map(selector=>{
+    const rows=new Map();
+    root.querySelectorAll(selector).forEach(el=>{const top=Math.round(el.offsetTop);if(!rows.has(top))rows.set(top,[]);rows.get(top).push(el)});
+    return [...rows.values()];
+   });
    context=gsap.context(()=>{
     // One large typographic gesture per module, before the supporting content.
     root.querySelectorAll('h2,.career-heading h3').forEach(el=>scene(el,
@@ -43,29 +52,15 @@ export default function useScrollEntrance(contentKey){
     root.querySelectorAll('.career-detail').forEach((el,index)=>scene(el,
      {y:mobile?55:90,clipPath:'inset(0% 0% 100% 0%)'},
      {trigger:mobile?el.parentElement:el.closest('.career-track'),delay:.3+index%3*.18}));
-    // Group actual grid rows so a card never waits for an offscreen sibling.
-    const cards=[...root.querySelectorAll('.project-card')];
-    const rows=new Map();
-    cards.forEach(el=>{const key=Math.round(el.offsetTop);if(!rows.has(key))rows.set(key,[]);rows.get(key).push(el)});
-    rows.forEach(row=>row.forEach((el,index)=>{
-     scene(el,{y:mobile?70:130,scale:.9,rotation:mobile?0:1.5,clipPath:'inset(0% 0% 100% 0%)'},
-      {trigger:row[0],delay:.3+index*.16,duration:1.85});
-     const image=el.querySelector('.project-image');
-     if(image)scene(image,{clipPath:'inset(0% 100% 0% 0%)'},{trigger:row[0],delay:.48+index*.16,duration:1.8,ease:'expo.inOut'});
-    }));
-    const skillRows=new Map();
-    root.querySelectorAll('.skill-card').forEach(el=>{const top=Math.round(el.offsetTop);if(!skillRows.has(top))skillRows.set(top,[]);skillRows.get(top).push(el)});
-    skillRows.forEach(row=>row.forEach((el,index)=>scene(el,
+    // Both card sections share exactly the same choreography and row timing.
+    cardGroups.forEach(rows=>rows.forEach(row=>row.forEach((el,index)=>scene(el,
      {y:mobile?70:135,scaleY:.84,rotationX:mobile?0:12,transformPerspective:1200,transformOrigin:'50% 100%',clipPath:'inset(0% 0% 100% 0%)'},
-     {trigger:row[0],delay:.35+index*.2,duration:1.9})));
+     {trigger:row[0],delay:.35+index*.2,duration:1.9}))));
     root.querySelectorAll('.contact-action,.process,.work-end').forEach(el=>scene(el,
      {x:-45,clipPath:'inset(0% 100% 0% 0%)'},{delay:.35,duration:1.65}));
     root.querySelectorAll('.contact-details>div').forEach((el,index)=>scene(el,
      {y:55,clipPath:'inset(0% 100% 0% 0%)'},{delay:.3+index*.16}));
-    // Small transform-only parallax on desktop; no scroll hijacking or pinning.
-    if(!mobile)root.querySelectorAll('.project-image img').forEach(image=>{
-     gsap.fromTo(image,{yPercent:-3,scale:1.09},{yPercent:3,scale:1.09,ease:'none',scrollTrigger:{trigger:image.closest('.project-card'),start:'top bottom',end:'bottom top',scrub:1.2}});
-    });
+    // Hover zoom remains on its own layer; covers no longer scrub on every scroll.
    },root);
    ScrollTrigger.refresh();
   }

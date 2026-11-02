@@ -147,7 +147,7 @@ const SpotlightCard = ({
 
     const tick = now => {
       raf = 0;
-      if (!alive) return;
+      if (!alive || document.hidden) return;
       const s = settingsRef.current;
       const dt = Math.min(0.05, Math.max(0.001, (now - last) / 1000));
       last = now;
@@ -201,14 +201,14 @@ const SpotlightCard = ({
     };
 
     const wake = () => {
-      if (raf || !alive) return;
+      if (raf || !alive || !state.visible || document.hidden) return;
       last = performance.now();
       raf = requestAnimationFrame(tick);
     };
     wakeRef.current = wake;
 
     const onMove = event => {
-      if (!state.visible) return;
+      if (!state.visible || event.pointerType !== 'mouse') return;
       pointer.x = event.clientX;
       pointer.y = event.clientY;
       pointer.active = true;
@@ -223,6 +223,7 @@ const SpotlightCard = ({
       wake();
     };
     const onDown = event => {
+      if(event.pointerType!=='mouse')return;
       pointer.x = event.clientX;
       pointer.y = event.clientY;
       pointer.active = true;
@@ -253,10 +254,11 @@ const SpotlightCard = ({
 
     const observer = new IntersectionObserver(entries => {
       state.visible = entries.some(entry => entry.isIntersecting);
-      if (state.visible) wake();
+      if (state.visible) wake();else{cancelAnimationFrame(raf);raf=0;}
     });
     observer.observe(root);
-    const unsubscribeEvents=subscribeSpotlightEvents({onResize,onMove,onUp,onScroll,onOut});
+    const onVisibility=()=>{if(document.hidden){cancelAnimationFrame(raf);raf=0}else wake()};
+    const unsubscribeEvents=subscribeSpotlightEvents({onResize,onMove,onUp,onScroll,onOut,onVisibility});
     root.addEventListener('pointerdown', onDown);
     root.addEventListener('focusin', onFocusIn);
     root.addEventListener('focusout', onFocusOut);

@@ -18,8 +18,8 @@
 @keyframes viewer-image-in{from{opacity:0;transform:translateY(12px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
 @keyframes viewer-open{from{opacity:0}to{opacity:1}}
 @keyframes viewer-close{from{opacity:1}to{opacity:0}}
-@keyframes viewer-backdrop-in{from{background:rgb(0 0 0 / 0);backdrop-filter:blur(0)}to{background:rgb(0 0 0 / .58);backdrop-filter:blur(5px)}}
-@keyframes viewer-backdrop-out{to{background:rgb(0 0 0 / 0);backdrop-filter:blur(0)}}
+@keyframes viewer-backdrop-in{from{background:rgb(0 0 0 / 0)}to{background:rgb(0 0 0 / .58)}}
+@keyframes viewer-backdrop-out{to{background:rgb(0 0 0 / 0)}}
 @keyframes viewer-spin{to{transform:rotate(360deg)}}
 @media(max-width:760px){.project-image-viewer{padding:0 14px;height:92svh;max-height:92svh;border-radius:12px}.viewer-header{height:58px;font-size:10px}.viewer-stage{height:calc(100% - 118px)}.viewer-footer{font-size:9px}.viewer-card{border-radius:8px}}
 /* Keep the existing homepage preview frame and image scale. */

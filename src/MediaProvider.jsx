@@ -1,11 +1,8 @@
-import {criticalImages,previewForUpload} from './media-performance';
+import {previewForUpload} from './media-performance';
 import {publishedState,currentRoute} from './published-state';
 import {canEdit} from './editor-mode';
 import avifReplacements from './avif-replacements.json';
 import React,{createContext,useContext,useEffect,useRef,useState} from 'react';
-import {heroMedia} from './hero-media';
-import {portfolioProjects} from './project-summaries';
-import './site-loader.css';
 
 const MediaContext=createContext(null);
 export const useMedia=()=>useContext(MediaContext);
@@ -16,14 +13,14 @@ const bounded=(promise,ms,fallback)=>new Promise(resolve=>{const timer=setTimeou
 function decodeImage(src,priority='auto'){return new Promise(resolve=>{const image=new Image();let done=false;const finish=()=>{if(done)return;done=true;clearTimeout(timer);resolve()};const timer=setTimeout(finish,8000);image.onload=()=>{if(image.decode)image.decode().catch(()=>{}).finally(finish);else finish()};image.onerror=finish;image.decoding='async';image.fetchPriority=priority;image.src=src})}
 
 export function MediaProvider({children}){
- const [hidden,setHidden]=useState({}),[uploaded,setUploaded]=useState([]);
- const [previewMedia,setPreviewMedia]=useState({});
- const [media,setMedia]=useState({}),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
- const [displayProgress,setDisplayProgress]=useState(0),[mounted,setMounted]=useState(false),[finished,setFinished]=useState(false);
- const urls=useRef(new Set()),target=useRef(0),loaded=useRef(false),lastDisplayed=useRef(-1);
+ const [hidden,setHidden]=useState(()=>({...publishedState.hidden})),[uploaded,setUploaded]=useState(()=>[...publishedState.uploaded]);
+ const [previewMedia,setPreviewMedia]=useState(()=>({...publishedState.previews}));
+ const [media,setMedia]=useState(()=>({...publishedState.media})),[busy,setBusy]=useState(false),[notice,setNotice]=useState('');
+ const [ready,setReady]=useState(!canEdit);
+ const urls=useRef(new Set());
  const urlFor=file=>{const url=URL.createObjectURL(file);urls.current.add(url);return url};
  useEffect(()=>{
-  let alive=true,frame=0,exitTimer,last=performance.now(),progress=0;
+  let alive=true;
   const previousRestoration=window.history.scrollRestoration;window.history.scrollRestoration='manual';
   // Fresh visits and reloads always open on the hero, even from a saved #work URL.
   // In-page navigation and returning from a project still keep their own anchors.
@@ -31,9 +28,7 @@ export function MediaProvider({children}){
    window.history.replaceState(window.history.state,'',window.location.pathname+window.location.search);
    window.scrollTo({top:0,behavior:'instant'});
   }
-  document.documentElement.classList.add('is-site-loading');
   async function load(){
-   const fontsReady=bounded(document.fonts?.ready||Promise.resolve(),1500,null);
    const records=canEdit?await bounded(mediaStore('getAll'),6000,[]):[];
    if(!alive)return;
    const saved={...publishedState.media},hiddenImages={...publishedState.hidden};for(const record of records||[]){if(record.key?.startsWith('hidden:')&&record.hidden)hiddenImages[record.key.slice(7)]=true;else if(record.key!=='video'&&record.file instanceof Blob)saved[record.key]=urlFor(record.file)}
@@ -42,6 +37,10 @@ export function MediaProvider({children}){
    setUploaded([...uploadedRecords.values()]);
    setHidden(hiddenImages);
    const previews={...publishedState.previews};
+   // Only local saved settings are restored before mounting the editor preview.
+   // The public site mounts immediately; images and fonts never gate the page.
+   for(const record of records||[])if(record.file instanceof Blob&&record.key!=='video')previews[record.key]=saved[record.key];
+   setMedia(saved);setPreviewMedia({...previews});setReady(true);
    await Promise.all((records||[]).filter(record=>record.file instanceof Blob&&record.key!=='video').map(async record=>{
     const matchedPreview=await previewForUpload(record,publishedState.previews[record.key],publishedState.fingerprints[record.key]);
     previews[record.key]=matchedPreview||saved[record.key];
@@ -50,25 +49,10 @@ export function MediaProvider({children}){
     if(matchedPreview&&avifReplacements[record.key])saved[record.key]=matchedPreview;
    }));
    if(!alive)return;
-   setMedia(saved);setPreviewMedia(previews);target.current=12;
-   const assets=criticalImages(currentRoute(),saved,previews,heroMedia,portfolioProjects);
-   const unique=[...new Set(assets)];let complete=0;
-   await Promise.all(unique.map(async (src,index)=>{await decodeImage(src,index===0?'high':'auto');if(alive)target.current=12+80*(++complete/unique.length)}));
-   await fontsReady;
-   if(alive){target.current=100;loaded.current=true}
+   setMedia({...saved});setPreviewMedia({...previews});
   }
-  load().catch(()=>{if(alive){target.current=100;loaded.current=true}});
-  function tick(now){
-   if(!alive)return;
-   const elapsed=Math.min(now-last,80);last=now;
-   progress=Math.min(target.current,progress+elapsed*.085);
-   const nextProgress=Math.floor(progress);
-   if(nextProgress!==lastDisplayed.current){lastDisplayed.current=nextProgress;setDisplayProgress(nextProgress)}
-   if(progress>=100&&loaded.current){setMounted(true);exitTimer=setTimeout(()=>{if(alive){const section=window.location.hash.slice(1);if(section&&section!=='home')document.getElementById(section)?.scrollIntoView({behavior:'instant',block:'start'});else window.scrollTo({top:0,behavior:'instant'});setFinished(true);document.documentElement.classList.remove('is-site-loading');window.dispatchEvent(new Event('resize'))}},380);return}
-   frame=requestAnimationFrame(tick);
-  }
-  frame=requestAnimationFrame(tick);
-  return()=>{window.history.scrollRestoration=previousRestoration;alive=false;cancelAnimationFrame(frame);clearTimeout(exitTimer);document.documentElement.classList.remove('is-site-loading');urls.current.forEach(url=>URL.revokeObjectURL(url))};
+  load().catch(()=>{if(alive)setReady(true)});
+  return()=>{window.history.scrollRestoration=previousRestoration;alive=false;urls.current.forEach(url=>URL.revokeObjectURL(url))};
  },[]);
  async function upload(key,file){if(!canEdit)return false;
   if(!file)return false;
@@ -94,5 +78,5 @@ export function MediaProvider({children}){
  async function remove(key){if(!canEdit)return false;setBusy(true);try{await mediaStore('delete',key);setMedia(previous=>{const next={...previous};delete next[key];return next});setPreviewMedia(previous=>{const next={...previous};delete next[key];return next});setNotice('已恢复该模块的默认图片。')}catch{setNotice('恢复失败，请重试。')}finally{setBusy(false)}}
  async function setImageHidden(key,value){if(!canEdit)return false;setBusy(true);try{if(value)await mediaStore('put','hidden:'+key,{key:'hidden:'+key,hidden:true});else await mediaStore('delete','hidden:'+key);setHidden(previous=>{const next={...previous};if(value)next[key]=true;else delete next[key];return next});setNotice(value?'图片已从作品页删除，可随时恢复。原始文件已保留。':'图片已恢复展示。');return true}catch{setNotice('未能保存图片状态，请重试。');return false}finally{setBusy(false)}}
  async function reset(){if(!canEdit)return false;setBusy(true);try{await mediaStore('clear');setMedia({});setPreviewMedia({});setHidden({});setUploaded([]);setNotice('已恢复默认图片。');return true}catch{setNotice('暂时无法恢复，请重试。');return false}finally{setBusy(false)}}
- return <MediaContext.Provider value={{media,previewMedia,uploaded,uploadProjectImages,hidden,setImageHidden,busy,notice,setNotice,upload,reset,remove}}>{mounted&&children}{!finished&&<div className={'site-loader '+(mounted?'is-leaving':'')} role="status" aria-live="polite" aria-label="作品集正在加载"><div className="loader-brand"><span className="loader-mark">W</span><span>WU JIAOYANG<small>VISUAL DESIGNER</small></span></div><div className="loader-center"><div className="loader-eyebrow">VISUAL / AI / BRAND</div><div className="loader-title">JIAOYANG<span>✦</span></div><div className="loader-progress-line"><span className="loader-caption">正在构建我的视觉世界</span><span className="loader-number">{String(displayProgress).padStart(2,'0')}<small>%</small></span></div><div className="loader-track" role="progressbar" aria-label="加载进度" aria-valuenow={displayProgress} aria-valuemin={0} aria-valuemax={100}><i style={{transform:`scaleX(${displayProgress/100})`}}/></div><div className="loader-meta"><span>{displayProgress<12?'读取图片与构图设置':displayProgress<93?'准备视觉素材':displayProgress<100?'准备字体与页面':'准备就绪'}</span><span>PORTFOLIO — {new Date().getFullYear()}</span></div></div><div className="loader-footer"><span>DESIGNED WITH INTENTION.</span><span>SHENZHEN / CN</span></div></div>}</MediaContext.Provider>;
+ return <MediaContext.Provider value={{media,previewMedia,uploaded,uploadProjectImages,hidden,setImageHidden,busy,notice,setNotice,upload,reset,remove}}>{ready&&children}</MediaContext.Provider>;
 }

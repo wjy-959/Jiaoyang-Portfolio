@@ -1,4 +1,5 @@
 import {assetUrl,loadPublishedState,currentRoute,routeUrl} from './published-state';
+import {installImageFallbacks} from './image-fallback';
 import {ProximityText} from './ProximityText';
 import React, {lazy, Suspense, useState, useEffect, useRef} from 'react';
 import {createRoot} from 'react-dom/client';
@@ -63,6 +64,8 @@ function Site(){
  }
  useEffect(()=>{const pop=()=>{setPath(currentRoute());requestAnimationFrame(()=>requestAnimationFrame(()=>{if(currentRoute()==='/'){const id=window.location.hash.slice(1);if(id)document.getElementById(id)?.scrollIntoView({behavior:'instant',block:'start'});else window.scrollTo({top:homeScroll.current,behavior:'instant'})}else window.scrollTo({top:0,behavior:'instant'})}))};window.addEventListener('popstate',pop);return()=>window.removeEventListener('popstate',pop)},[]);
  const detailProject=portfolioProjects.find(project=>project.detailPath===path);
- return detailProject?<Suspense fallback={<div className="route-loading" role="status"><span>✳</span> 正在准备作品…</div>}><ProjectDetail key={detailProject.slug} project={detailProject} navigate={navigate}/></Suspense>:<PortfolioHome navigate={navigate}/>;
+ return detailProject?<Suspense fallback={null}><ProjectDetail key={detailProject.slug} project={detailProject} navigate={navigate}/></Suspense>:<PortfolioHome navigate={navigate}/>;
 }
+const removeImageFallbacks=installImageFallbacks();
+if(import.meta.hot)import.meta.hot.dispose(removeImageFallbacks);
 loadPublishedState().then(()=>createRoot(document.getElementById('root')).render(<MediaProvider><CopyProvider><Site/></CopyProvider></MediaProvider>)).catch(error=>{document.getElementById('root').textContent=error.message});

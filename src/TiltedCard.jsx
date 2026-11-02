@@ -272,11 +272,11 @@ const TiltedCard = ({
         caption.style.opacity = Math.max(0, state.shown).toFixed(3);
       }
 
-      if ((busy || (!settle && s.intro)) && visible) raf = requestAnimationFrame(frame);
+      if ((busy || (!settle && s.intro)) && visible && !document.hidden) raf = requestAnimationFrame(frame);
     };
 
     const wake = () => {
-      if (raf || !visible) return;
+      if (raf || !visible || document.hidden) return;
       last = performance.now();
       raf = requestAnimationFrame(frame);
     };
@@ -427,10 +427,12 @@ const TiltedCard = ({
     document.documentElement.addEventListener('pointerleave', onWindowLeave);
     if (settingsRef.current.gyroscope) window.addEventListener('deviceorientation', onOrientation);
 
+    const onVisibility=()=>{if(document.hidden){cancelAnimationFrame(raf);raf=0}else wake()};
+    document.addEventListener('visibilitychange',onVisibility);
     const observer = new IntersectionObserver(entries => {
       visible = entries.some(entry => entry.isIntersecting);
       if (visible && !entered && introAt < 0) introAt = performance.now() + settingsRef.current.introDelay;
-      wake();
+      if(!visible){cancelAnimationFrame(raf);raf=0}else wake();
     });
     observer.observe(figure);
 
@@ -441,6 +443,7 @@ const TiltedCard = ({
       wakeRef.current = null;
       flipRef.current = null;
       observer.disconnect();
+      document.removeEventListener('visibilitychange',onVisibility);
       figure.removeEventListener('pointerenter', onEnter);
       figure.removeEventListener('pointermove', onMove);
       figure.removeEventListener('pointerleave', onLeave);

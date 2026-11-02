@@ -5,6 +5,7 @@ import {CustomEase} from 'gsap/CustomEase';
 import './case-motion.css';
 
 gsap.registerPlugin(ScrollTrigger,CustomEase);
+ScrollTrigger.config({ignoreMobileResize:true});
 // Measured on EcoFlow's DELTA 3 product modules: 700ms, 200ms stagger.
 const referenceEase=CustomEase.create('case-reference','0.25,0.46,0.45,0.94');
 export default function useCaseMotion(rootRef,contentKey,editing){
@@ -77,11 +78,13 @@ export default function useCaseMotion(rootRef,contentKey,editing){
   let mobileMode=window.innerWidth<=760;
   function resize(){const next=window.innerWidth<=760;if(next!==mobileMode){mobileMode=next;schedule()}}
   window.addEventListener('resize',resize,{passive:true});
-  root.addEventListener('load',refresh,true);
+  // Declared image dimensions already reserve layout; only unmeasured assets need refresh.
+  function imageLoaded(event){const image=event.target;if(image.tagName==='IMG'&&!(Number(image.getAttribute('width'))>0&&Number(image.getAttribute('height'))>0))refresh()}
+  root.addEventListener('load',imageLoaded,true);
   root.addEventListener('focusin',focus);
   reduced.addEventListener('change',schedule);
   build();
   document.fonts?.ready.then(()=>{if(!disposed)refresh()});
-  return()=>{disposed=true;cancelAnimationFrame(frame);clearTimeout(refreshFrame);editorObserver.disconnect();dialogObserver.disconnect();context?.revert();window.removeEventListener('resize',resize);root.removeEventListener('load',refresh,true);root.removeEventListener('focusin',focus);reduced.removeEventListener('change',schedule)};
+  return()=>{disposed=true;cancelAnimationFrame(frame);clearTimeout(refreshFrame);editorObserver.disconnect();dialogObserver.disconnect();context?.revert();window.removeEventListener('resize',resize);root.removeEventListener('load',imageLoaded,true);root.removeEventListener('focusin',focus);reduced.removeEventListener('change',schedule)};
  },[rootRef,contentKey,editing]);
 }

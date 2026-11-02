@@ -3,6 +3,10 @@ export function softReveal(from,to){
  const {clipPath:initialClip,...start}=from;
  const {clipPath:finalClip,...end}=to;
  if(!initialClip)return [start,end];
+ // Touch screens use composited opacity/transform instead of repainting large masks.
+ if(typeof window!=='undefined'&&(window.innerWidth<=760||window.matchMedia('(pointer: coarse)').matches)){
+  return [{...start,opacity:0},{...end,opacity:1,clearProps:[end.clearProps?.replace(/clipPath,?/g,''),'opacity'].filter(Boolean).join(',')}];
+ }
  const horizontal=initialClip.includes('0% 100% 0% 0%')||initialClip.includes('0% 50% 0% 50%');
  const centered=initialClip.includes('48%')||initialClip.includes('0% 50% 0% 50%');
  const mask=centered?`linear-gradient(${horizontal?'90deg':'180deg'},transparent,#000 14%,#000 86%,transparent)`:`linear-gradient(${horizontal?'90deg':'180deg'},#000 calc(var(--soft-reveal) - 22%),transparent var(--soft-reveal))`;

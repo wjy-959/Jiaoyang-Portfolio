@@ -11,6 +11,7 @@ export function subscribeSpotlightEvents(handlers){
  subscribers.add(handlers);
  if(!detach){
   const events=[
+   [document,'visibilitychange',event=>broadcast('onVisibility',event),{passive:true}],
    [window,'pointermove',event=>queued('onMove',event),{passive:true}],
    [window,'scroll',event=>queued('onScroll',event),{capture:true,passive:true}],
    [window,'resize',event=>queued('onResize',event),{passive:true}],
